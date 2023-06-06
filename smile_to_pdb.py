@@ -3,6 +3,7 @@ import os
 from rdkit import Chem, rdBase, RDLogger
 from rdkit.Chem import AllChem
 
+
 def main():
     # Mute warnings
     logger = RDLogger.logger()
@@ -26,7 +27,7 @@ def main():
     # Read the CSV files
     active_df = pd.read_csv(active_smiles_path, dtype={'PDBCode': str})
     decoy_df = pd.read_csv(decoy_smiles_path, dtype={'Ligand': str})
-   
+
     print("Processing Active SMILES, please wait...")
 
     # Process the active ligands
@@ -63,8 +64,9 @@ def main():
         else:
             with open('Broken_Decoy_Smiles.txt', 'a') as f:
                 f.write(f"Invalid SMILES string at index {index}: {smiles}\n")
-                
-    print ("Processing Completed")
-    
+
+    print("Processing Completed")
+
+
 if __name__ == "__main__":
     main()
