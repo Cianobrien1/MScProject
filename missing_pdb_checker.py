@@ -15,6 +15,13 @@ def main():
     with open('Missing_PDBs.txt', 'w') as f:
         for pdb_code in missing_pdb_codes:
             f.write(f'{pdb_code}\n')
+    
+    # Remove rows with missing PDB codes from the decoy dataframe
+    decoy_df = decoy_df[~decoy_df['PDBCode'].isin(missing_pdb_codes)]
+
+    # Write the updated decoy dataframe to a new CSV file
+    decoy_df.to_csv('/home/s2451611/MScProject/SCORCH_SMILES/Updated_Decoy_Ligand_Smiles.csv', index=False)
+    return 
 
 
 if __name__ == "__main__":
