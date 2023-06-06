@@ -14,7 +14,7 @@ def main():
 
     # Define the input file paths
     active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Active_Ligand_Smiles.csv"
-    decoy_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Decoy_Ligand_Smiles.csv"
+    decoy_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Decoy_Ligand_Smiles.csv"
 
     # Define the output directory paths
     active_output_dir = r"/home/s2451611/MScProject/SMILE_pdbs"
