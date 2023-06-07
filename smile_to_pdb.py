@@ -35,8 +35,14 @@ def main():
         pdb_code = row['PDBCode']
         smiles = row['RDKitCanonSmile']
         mol = Chem.MolFromSmiles(smiles)
+        
         if mol is not None:
-            AllChem.EmbedMolecule(mol)
+            
+            # Add temporary hydrogens & remove before saving to pdb file
+            h_mol = Chem.AddHs(mol)
+            AllChem.EmbedMolecule(h_mol)
+            mol = Chem.RemoveHs(h_mol)
+            
             # Create a subdirectory for this PDB code
             pdb_subdir = os.path.join(active_output_dir, pdb_code)
             os.makedirs(pdb_subdir, exist_ok=True)
@@ -55,9 +61,14 @@ def main():
         ligand = row['Ligand']
         smiles = row['SMILE']
         mol = Chem.MolFromSmiles(smiles)
+        
         if mol is not None:
-            AllChem.EmbedMolecule(mol)
-
+            
+            # Add temporary hydrogens & remove before saving to pdb file
+            h_mol = Chem.AddHs(mol)
+            AllChem.EmbedMolecule(h_mol)
+            mol = Chem.RemoveHs(h_mol)
+            
             # Save the molecule to a PDB file in the decoy directory
             pdb_path = os.path.join(decoy_output_dir, f'{ligand}_SMILE.pdb')
             AllChem.MolToPDBFile(mol, pdb_path)
