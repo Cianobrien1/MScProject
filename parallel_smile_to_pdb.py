@@ -44,8 +44,8 @@ def main():
     decoy_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Decoy_Ligand_Smiles.csv"
 
     # Define the output directory paths
-    active_output_dir = r"/home/s2451611/MScProject/SMILE_pdbs"
-    decoy_output_dir = r"/home/s2451611/MScProject/Decoy_Smile_PDBs"
+    active_output_dir = r"/home/s2451611/MScProject/Acitve_Smiles_pdbs"
+    decoy_output_dir = r"/home/s2451611/MScProject/Decoy_Smiles_pdbs"
 
     # Ensure the output directories exist
     os.makedirs(active_output_dir, exist_ok=True)
