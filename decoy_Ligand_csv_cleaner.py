@@ -11,10 +11,10 @@ def missing_pdb_cleaner():
     # Find the PDB codes that are in the decoy dataframe but not in the active dataframe
     missing_pdb_codes = set(decoy_df['PDBCode']) - set(active_df['PDBCode'])
 
-    # Write the missing PDB codes to a text file
-    with open('Missing_PDBs.txt', 'w') as f:
-        for pdb_code in missing_pdb_codes:
-            f.write(f'{pdb_code}\n')
+    # # Write the missing PDB codes to a text file
+    # with open('Missing_PDBs.txt', 'w') as f:
+    #     for pdb_code in missing_pdb_codes:
+    #         f.write(f'{pdb_code}\n')
     
     # Remove rows with missing PDB codes from the decoy dataframe
     decoy_df = decoy_df[~decoy_df['PDBCode'].isin(missing_pdb_codes)]
