@@ -136,7 +136,6 @@ Ligand,SMILE,PDBCode
 1a9m_decoy_4,C=CC(=CC)N=C1C(C(=O)C2=CNC(=CC(=O)NC)[C@@H]2NC(=O)Nc2cc(OC)ccc2OC)=CC=C(O)C1=CCCl,1a9m
 1a9m_decoy_5,CC(=O)OCC(=O)Nc1ccc([C@@H](C)CCC(=O)NN=C2C(=O)c3c(C)[nH]c(C)c3C[C@@H]2c2ccc(Cl)[nH]c2=O)cc1,1a9m
 1a9m_decoy_6,CC=C[C@H]1OC[C@@H](NC(=O)Nc2ccccc2NC(=O)Nc2cccc(NC(=O)COC)c2)[C@H]1CC1=CCOC1=CCl,1a9m
-1a9m_decoy_7,C[C@H](O)c1cn(N=C234CC[C@]25=C3C(NC(=O)C(C)(C)C)=CC4=C5)cc1NC(=O)N[C@H](C)C1=C(C(=O)O)OC=CC(Cl)=C1,1a9m
 1a9m_decoy_8,C=C1C(=O)C2=C([C@@H](C)O)NC(C(=O)N(CC)C(=O)c3c(C)nn(CC(N)=O)c3CC)=C(C(=O)CC)[C@H]2C2=C(Cl)CC=C12,1a9m
 1a9m_decoy_9,CCCC(=O)Nc1ccc(C=C(Cl)CC)c2c1[C@@](NC(=O)Nc1ccccc1O)(C(=O)N1CCNC(=O)C1)CCC2=O,1a9m
 1a9q_decoy_1,OC[C@H]1COCC=CC(=CS)[C@H](O)[C@@H](O)COC1,1a9q
@@ -1091,7 +1090,6 @@ Ligand,SMILE,PDBCode
 1cnw_decoy_9,OCCO[C@H](CO)OCCO[C@H]1CO[C@@](O)(C(CO)CO)N1,1cnw
 1cnx_decoy_1,Nc1ccccc1Sc1nnc(C(Cl)Cl)[nH]1,1cnx
 1cnx_decoy_10,C=C(C)C(=CC)OC(=O)c1cc(=CC)c(=C)c2c1CC(C)(C)C2,1cnx
-1cnx_decoy_2,C=CCNC1=NC(C)=C2ClClC(N)=C2S1,1cnx
 1cnx_decoy_3,Sc1nc(Nc2ccc(Cl)nc2)c(CCl)[nH]1,1cnx
 1cnx_decoy_4,CC1(C)CSC=C1Nc1n[nH]c(Cl)c1N,1cnx
 1cnx_decoy_5,Nc1nc(CNc2c(Cl)cncc2Cl)cs1,1cnx
@@ -1864,7 +1862,6 @@ Ligand,SMILE,PDBCode
 1ezq_decoy_2,CCOC(=O)c1cc(SCC2=CSCC2)nc(C(=O)NCC(=O)Oc2cc(O)cc3c2OCO3)c1,1ezq
 1ezq_decoy_3,Cc1ccc([C@H](CO)OC(=O)CSCn2c(C(=O)OC(C)C)c(-c3cccs3)c(=O)n(C)c2=O)o1,1ezq
 1ezq_decoy_4,CCOC(=O)CC(=CNC(=O)c1ccc(CO[C@@H]2CCOC(C)(C)C2)o1)S(=O)(=O)N1CCSCC1,1ezq
-1ezq_decoy_5,COC(=O)[C@@H](C)Sc1nc(C(=O)OCC(=O)OC23=C4C5=C6O7C2=C56473)c(C(=O)Nc2ccccc2)s1,1ezq
 1ezq_decoy_6,CC[NH2+][C@H]1CC[C@H]([NH2+][C@@H](c2cccc(C#CCO)c2)c2ccc(N)c([C@@H](N)C(=O)OC)c2)CC1,1ezq
 1ezq_decoy_7,CC(=[NH2+])C(=C(C)O)[C@H](O)c1ccc(OCCc2ccncc2)c(C[NH2+][C@@H]2CC=CC[C@]2(C)N)c1,1ezq
 1ezq_decoy_8,CCC[NH2+]CCN(C(=O)C[NH2+][C@H]1C(=CC=CO)C(O)=Cc2c(C)cccc21)c1ccccc1N,1ezq
@@ -2766,7 +2763,6 @@ Ligand,SMILE,PDBCode
 1gnm_decoy_4,C=CC(=CC)N=C1C(C(=O)C2=CNC(=CC(=O)NC)[C@@H]2NC(=O)Nc2cc(OC)ccc2OC)=CC=C(O)C1=CCCl,1gnm
 1gnm_decoy_5,CC(=O)OCC(=O)Nc1ccc([C@@H](C)CCC(=O)NN=C2C(=O)c3c(C)[nH]c(C)c3C[C@@H]2c2ccc(Cl)[nH]c2=O)cc1,1gnm
 1gnm_decoy_6,CC=C[C@H]1OC[C@@H](NC(=O)Nc2ccccc2NC(=O)Nc2cccc(NC(=O)COC)c2)[C@H]1CC1=CCOC1=CCl,1gnm
-1gnm_decoy_7,C[C@H](O)c1cn(N=C234CC[C@]25=C3C(NC(=O)C(C)(C)C)=CC4=C5)cc1NC(=O)N[C@H](C)C1=C(C(=O)O)OC=CC(Cl)=C1,1gnm
 1gnm_decoy_8,C=C1C(=O)C2=C([C@@H](C)O)NC(C(=O)N(CC)C(=O)c3c(C)nn(CC(N)=O)c3CC)=C(C(=O)CC)[C@H]2C2=C(Cl)CC=C12,1gnm
 1gnm_decoy_9,CCCC(=O)Nc1ccc(C=C(Cl)CC)c2c1[C@@](NC(=O)Nc1ccccc1O)(C(=O)N1CCNC(=O)C1)CCC2=O,1gnm
 1gnn_decoy_1,CCOC(=O)C(OCc1ccc(-c2ccc([C@@H](CCO)[NH2+][C@H]3CNC[C@H]3OC)o2)cc1)=C(C)C=CC(=O)C1(C)CC1,1gnn
@@ -2776,7 +2772,6 @@ Ligand,SMILE,PDBCode
 1gnn_decoy_4,C=CC(=CC)N=C1C(C(=O)C2=CNC(=CC(=O)NC)[C@@H]2NC(=O)Nc2cc(OC)ccc2OC)=CC=C(O)C1=CCCl,1gnn
 1gnn_decoy_5,CC(=O)OCC(=O)Nc1ccc([C@@H](C)CCC(=O)NN=C2C(=O)c3c(C)[nH]c(C)c3C[C@@H]2c2ccc(Cl)[nH]c2=O)cc1,1gnn
 1gnn_decoy_6,CC=C[C@H]1OC[C@@H](NC(=O)Nc2ccccc2NC(=O)Nc2cccc(NC(=O)COC)c2)[C@H]1CC1=CCOC1=CCl,1gnn
-1gnn_decoy_7,C[C@H](O)c1cn(N=C234CC[C@]25=C3C(NC(=O)C(C)(C)C)=CC4=C5)cc1NC(=O)N[C@H](C)C1=C(C(=O)O)OC=CC(Cl)=C1,1gnn
 1gnn_decoy_8,C=C1C(=O)C2=C([C@@H](C)O)NC(C(=O)N(CC)C(=O)c3c(C)nn(CC(N)=O)c3CC)=C(C(=O)CC)[C@H]2C2=C(Cl)CC=C12,1gnn
 1gnn_decoy_9,CCCC(=O)Nc1ccc(C=C(Cl)CC)c2c1[C@@](NC(=O)Nc1ccccc1O)(C(=O)N1CCNC(=O)C1)CCC2=O,1gnn
 1gno_decoy_1,CCOC(=O)C(OCc1ccc(-c2ccc([C@@H](CCO)[NH2+][C@H]3CNC[C@H]3OC)o2)cc1)=C(C)C=CC(=O)C1(C)CC1,1gno
@@ -2786,7 +2781,6 @@ Ligand,SMILE,PDBCode
 1gno_decoy_4,C=CC(=CC)N=C1C(C(=O)C2=CNC(=CC(=O)NC)[C@@H]2NC(=O)Nc2cc(OC)ccc2OC)=CC=C(O)C1=CCCl,1gno
 1gno_decoy_5,CC(=O)OCC(=O)Nc1ccc([C@@H](C)CCC(=O)NN=C2C(=O)c3c(C)[nH]c(C)c3C[C@@H]2c2ccc(Cl)[nH]c2=O)cc1,1gno
 1gno_decoy_6,CC=C[C@H]1OC[C@@H](NC(=O)Nc2ccccc2NC(=O)Nc2cccc(NC(=O)COC)c2)[C@H]1CC1=CCOC1=CCl,1gno
-1gno_decoy_7,C[C@H](O)c1cn(N=C234CC[C@]25=C3C(NC(=O)C(C)(C)C)=CC4=C5)cc1NC(=O)N[C@H](C)C1=C(C(=O)O)OC=CC(Cl)=C1,1gno
 1gno_decoy_8,C=C1C(=O)C2=C([C@@H](C)O)NC(C(=O)N(CC)C(=O)c3c(C)nn(CC(N)=O)c3CC)=C(C(=O)CC)[C@H]2C2=C(Cl)CC=C12,1gno
 1gno_decoy_9,CCCC(=O)Nc1ccc(C=C(Cl)CC)c2c1[C@@](NC(=O)Nc1ccccc1O)(C(=O)N1CCNC(=O)C1)CCC2=O,1gno
 1gny_decoy_1,C[NH2+]CC(=O)Nc1ccccc1-n1c(=O)n(CCC(=O)N2C[C@H](C)C[C@H](c3c[nH]c4ccccc34)C2)c2ccccc21,1gny
@@ -3614,7 +3608,6 @@ Ligand,SMILE,PDBCode
 1jaq_decoy_2,CNc1ccc2c(c1)[C@@H](OC(=O)C=C(C)C(=CC(F)F)C(Cl)=C(F)F)C(=O)N2,1jaq
 1jaq_decoy_3,CC=C(C(=C(F)Cl)C(F)(F)F)c1c(CCC)[nH]c(=O)n(C[C@@H]2CCCO2)c1=O,1jaq
 1jaq_decoy_4,O=C(NCC1(O)CN(C(=O)C=C2CCCCC2)C1)C(=CC(F)F)C(Cl)=C(F)F,1jaq
-1jaq_decoy_5,C=C1FClC2=C1C(=Cn1cc(COC(C)C)nc1CO)C(=O)C(C(F)(F)F)=C2,1jaq
 1jaq_decoy_6,Cc1cc(C(=O)OC(C)(C)C(=O)NC2=CC=C(F)C(F)(F)C2=C(F)Cl)c(C)[nH]1,1jaq
 1jaq_decoy_7,CCCN(C(=O)C(=CCF)C(N)=CCl)[C@H]1CC(=O)c2cc(C(F)(F)F)oc2C1,1jaq
 1jaq_decoy_8,COC(=O)c1cc(F)cc(NC(=O)c2cc(F)c(CN[C@@H](F)Cl)cc2F)c1C,1jaq
@@ -5468,7 +5461,6 @@ Ligand,SMILE,PDBCode
 1o3i_decoy_6,ONC=C1NC(CBr)=C(Br)C(Br)=C1Br,1o3i
 1o3i_decoy_7,CC(Br)=C1N=CC(N)=C(C(Br)(Br)Br)O1,1o3i
 1o3i_decoy_8,C=C1C(CBr)=NC(Br)=C(N)OC1(Br)Br,1o3i
-1o3i_decoy_9,BrC1=NC=C2BrBrC2=NC2=C1CBrO2,1o3i
 1o3j_decoy_1,Nc1ccc2cc3nc(C[NH2+]CCBr)[nH]c(=O)c3cc2c1,1o3j
 1o3j_decoy_10,Nc1cc2c(cc1Br)[C@@H]2NC(=O)NCc1cc[nH+]cc1,1o3j
 1o3j_decoy_2,CC(=O)Nc1ccc2c(c1)[nH]c1cc(C(N)=[NH2+])c(Br)cc12,1o3j
@@ -5549,7 +5541,6 @@ Ligand,SMILE,PDBCode
 1o7o_decoy_7,CCOC(=O)[C@](O)(COC(=O)c1cocc1OO)C(=O)N(C)C,1o7o
 1o7o_decoy_8,C=C(C(=O)O)C(=O)N(CCOC[C@H]1CCOO1)C(=CO)C(=O)O,1o7o
 1o7o_decoy_9,O=C(O)CN(C(=O)OOCC1COC1)C(=O)C1=CCOOC=C1,1o7o
-1o86_decoy_1,C[C@]12C3=C4C=C[N+]5(c6cnc7cc(NC(=O)CCN8C(=O)CCC8=O)ccc7c6)C1=N4325,1o86
 1o86_decoy_10,CC(=O)Nc1ccc(NC(=O)CC2=CSC=CC2=C[C@H]2CCCN2C(C)=O)cc1,1o86
 1o86_decoy_2,COc1cc2c(cc1CCn1c(=O)[nH]c3nc(N4CCC[C@H](C)C4)ncc31)O[C@@H](C)C2,1o86
 1o86_decoy_3,CCn1nnc2cc(C(=O)Nc3cccc(-c4c(C)ccc5c4OCCO5)n3)ccc21,1o86
@@ -6100,9 +6091,7 @@ Ligand,SMILE,PDBCode
 1pot_decoy_8,C[C@@H](C=C(C[NH3+])C[NH3+])C[NH3+],1pot
 1pot_decoy_9,C=C([NH3+])C(C[NH3+])=C(C)C[NH3+],1pot
 1ppc_decoy_1,Cc1cn(-c2ccc(C=CC(=O)c3cccc4ccccc34)c(Nc3nc(C(F)(F)F)n[nH]3)n2)nc1C,1ppc
-1ppc_decoy_10,CSCC=C1SC(NC=C2C(=O)C[C@H](c3ccoc(=O)c3)C[C@H]2NC(=O)C2=CC3=C45C(=C2)O4O35)=NC1=O,1ppc
 1ppc_decoy_2,Cc1cc(N)nc(N2CCN(Cc3cc(Oc4c(F)cc(F)cc4F)nc(-c4ccccc4)n3)CC2)n1,1ppc
-1ppc_decoy_3,O=C(CC1CCCCC1)OC[C@@H]1CN(S(=O)(=O)N2C=CC=C(O)C2)C[C@@H](C(=O)NC23=C4C5=C6C7=C2S65743)O1,1ppc
 1ppc_decoy_4,CN[C@H](COCC1=NCSO1)[C@]1(C)OC(=O)Nc2sc(C(=O)Oc3ccc4c(c3)CCCCO4)c(C)c21,1ppc
 1ppc_decoy_5,CCOC(=O)COC(=O)C[C@H](SC1=NC(=O)C(=CC2=CC=C3CN(C)CC=C3O2)S1)c1c(C)noc1C,1ppc
 1ppc_decoy_6,COC(=O)COC(=O)CN1C[C@@H](CSCC(=O)N2CSc3cc4c(cc3C2)[nH]c2ccccc24)OC1=O,1ppc
@@ -7369,7 +7358,6 @@ Ligand,SMILE,PDBCode
 1td7_decoy_7,Cc1ccc(NC(=O)C[N@H+]2Cc3cc(C)ccc3-c3[nH]nc(C)c32)cc1,1td7
 1td7_decoy_8,C[NH+]=C1N=C2C(=C1C)CCc1ccc(NC(=O)c3cc(C)[nH]c3C)cc12,1td7
 1td7_decoy_9,[NH3+]C[C@@H]1OCCCC1=Cc1ccc(NC2=C3C=CC=CN3CN2)cc1,1td7
-1tf9_decoy_1,C[C@@H]1CCO[C@@H](CN2CCC3=C(C2)C(=CCCl)ClCl3)C1,1tf9
 1tf9_decoy_10,N[C@H]1C=C(OC[C@@]2(O)COC(=O)N2)C(O)=CO1,1tf9
 1tf9_decoy_2,CCC[C@@H](CCCl)C1=C2C(=C(Cl)CN[C@@H]2Cl)CCC1=O,1tf9
 1tf9_decoy_3,CC=C(CCl)CN1CC(C)(C)[C@@](O)(CCl)[C@@](C)(CCl)C1,1tf9
@@ -7989,7 +7977,6 @@ Ligand,SMILE,PDBCode
 1uw1_decoy_7,COCCNC(=O)C1=C(NC(=O)c2ccc(OO)cc2)c2cc[nH]c2OO1,1uw1
 1uw1_decoy_8,COC(=O)C(=C(NC=NC(=O)c1ccoc(=O)c1)OC)c1ccc[nH]c1=O,1uw1
 1uw1_decoy_9,C[C@@H](COC(=O)O)C(=O)OCCOC=Nc1c[nH]c(=O)n1-c1ccccc1,1uw1
-1uw6_decoy_1,CC1=C2C(=N)N(CC[NH3+])C(=CBr)C2=C(Br)BrBr1,1uw6
 1uw6_decoy_10,C=CCOc1cc(Cl)c(O)cc1Cl,1uw6
 1uw6_decoy_2,CCNc1[nH]c(C(C=C(Br)Br)=CC(Br)Br)c[nH+]1,1uw6
 1uw6_decoy_3,NCN1CCN(C(C=CBr)=CC(Br)(Br)Br)CC1,1uw6
@@ -8581,7 +8568,6 @@ Ligand,SMILE,PDBCode
 1wur_decoy_9,O=C1O[C@]2(O)OCC(=NN3C(=O)P(O[C@@H]4COOOP4)O[C@H](OP(O)CO)P3O)N=C2S1,1wur
 1wvj_decoy_1,NC(=O)C(=CC(=O)N[C@H]1CCOC1=O)C1=CCOC=C1Br,1wvj
 1wvj_decoy_10,CCOCc1cn2c(=O)[nH]c(N)c2cn1,1wvj
-1wvj_decoy_2,C=CC(=C)NC1=OBrC2=C(OCOC2=O)C1=CNC(C)=O,1wvj
 1wvj_decoy_3,C=C1CC(Br)=CC(NC(=O)OCCOC(=O)C(N)=O)=C1C,1wvj
 1wvj_decoy_4,COc1ccc2c(c1OC)OC(C(O)=CNBr)=CC(=O)N2,1wvj
 1wvj_decoy_5,C[C@@H]1OC=C(C(=O)OCC(=O)Nc2ccc(Br)cc2N)O1,1wvj
@@ -8821,12 +8807,10 @@ Ligand,SMILE,PDBCode
 1xpz_decoy_9,Cc1oc(NC(=O)CSCCN2CCNCC2)cc1-c1ncnc(=O)[nH]1,1xpz
 1xq0_decoy_1,COC(=C(Br)CBr)C(Br)(Br)Br,1xq0
 1xq0_decoy_10,COC(=CCBr)C(Br)=C(Br)Br,1xq0
-1xq0_decoy_2,Brc1cc(Br)c2c(c1Br)BrBrO2,1xq0
 1xq0_decoy_3,OC1(CCCBr)C(Br)(Br)C1(Br)Br,1xq0
 1xq0_decoy_4,O=C(CBr)C1=C(Br)C(Br)=C1Br,1xq0
 1xq0_decoy_5,O=C1C(Br)=C(Br)C(Br)=C1CBr,1xq0
 1xq0_decoy_6,COC(C)=C(C(Br)Br)C(Br)(Br)Br,1xq0
-1xq0_decoy_7,BrC1(Br)BrBrC2=C1COCC2,1xq0
 1xq0_decoy_8,BrC(Br)=C(Br)c1oc(Br)cc1Br,1xq0
 1xq0_decoy_9,OC=C1C(Br)=CC(Br)=C1Br,1xq0
 1xqd_decoy_1,N[C@]12OCOP3NC(=O)O[C@](NC[C@@H](O)OP(O)O)(OON1[C@@H](CP(O)O)OCP=O)[C@@H]32,1xqd
@@ -9419,11 +9403,9 @@ Ligand,SMILE,PDBCode
 1zhy_decoy_7,C=CC(OC(=O)N1CCC[C@H](c2n[nH+]c(C3CC3)n2C)C1)=C1CCC1,1zhy
 1zhy_decoy_8,O=C(NCC[NH+]1CCCCC1)c1cnn2c1C1=CC=COC1=CC=C2,1zhy
 1zhy_decoy_9,OCC(O)(CO)[C@@H](O)CO[C@H]1CO[C@@H]2[C@@H](CO[C@H]2C(O)O)O1,1zhy
-1zoe_decoy_1,BrCc1ncn2c1CNC1=C(BrBr1)C(Br)=C2,1zoe
 1zoe_decoy_10,BrC1=CC(=CC(Br)(Br)Br)n2ccnc2NC1,1zoe
 1zoe_decoy_2,BrC1=CC=C2C(NCC(Br)=C(Br)Br)=NN=C12,1zoe
 1zoe_decoy_3,BrN=C1NC=C(CN2CC2)C1=CC(Br)(Br)Br,1zoe
-1zoe_decoy_4,CC1=NN2CCNC=C3BrBrC(=C32)C1(Br)Br,1zoe
 1zoe_decoy_5,C=C1CC(Br)=CN1c1nc[nH]c1C(Br)(Br)Br,1zoe
 1zoe_decoy_6,CC1=NC=C2N=NC(C=C(Br)C(Br)(Br)Br)=C21,1zoe
 1zoe_decoy_7,BrC1=CN(Cc2[nH]ncc2Br)C=C(Br)C1Br,1zoe
@@ -9731,7 +9713,6 @@ Ligand,SMILE,PDBCode
 2ay3_decoy_9,COc1c(NC(=O)C2=C[C@@](C)(C(=O)O)[C@H](N)O2)cc(=O)[nH]c1Cl,2ay3
 2ayr_decoy_1,COC(=O)C=C(C)C=C(C1=C(C)C(Cl)=C(SC(=O)CCN2CC3(CCCC3)C[C@@H](C)C2=O)C1=O)[C@H](C)Cl,2ayr
 2ayr_decoy_10,CCOC(=O)[C@H](C)OC(=O)c1ccc(NC(=O)c2ccc3c(c2Cl)C(C)(C)C[C@H](Cl)C3)cc1C=CSC,2ayr
-2ayr_decoy_2,CC[C@H]1C[C@H](CC(=O)OC(C)(C)C)CCCN1C(=O)c1ccc(CCl)c2c1OCl[C@@H]2C1=CC[S@](=O)C=C1,2ayr
 2ayr_decoy_3,CC=CC=C1c2ccc(Cl)cc2[C@@H](Nc2sc(C(=O)O[C@H](C(C)=O)C(C)C)cc2C(=O)OC)CC[C@H]1Cl,2ayr
 2ayr_decoy_4,COC(=O)c1ccc(C(=O)CS(=O)(=O)CC(=O)C2=C(Cl)C(C)=C[C@@H](CCl)C2=C(C)[C@H]2C=C[C@@H](C)C2)cc1,2ayr
 2ayr_decoy_5,C=C(C)C(C(=O)O[C@@H](C(=O)N1CC[C@@H](C(=O)C2=C(SC=CC)CCC2)C1)c1cc(O)cc(Cl)c1)=C(C)Cl,2ayr
@@ -10506,7 +10487,6 @@ Ligand,SMILE,PDBCode
 2csn_decoy_4,CC=C1C=C2CC[C@@H](SC3=NNC(=O)CN3C[C@@H](O)CO)C(=O)C2=CN1,2csn
 2csn_decoy_5,CC1=C(CCCO)C(=O)NC1=Cc1ccn(C2=C[C@@H](N)S(=O)(=O)C=C2)n1,2csn
 2csn_decoy_6,C[C@@H](SC[C@@H](O)c1ccc(CO)o1)c1nn(-c2ccc(N)cc2)c(=O)[nH]1,2csn
-2csn_decoy_7,COc1c(O)cc(C)cc1[C@@H]1CC2=C3C[S@H](CN)O=C3NN=C2C(=O)N1,2csn
 2csn_decoy_8,CC1=N[C@H]2C=Cc3c(O)c(C(=O)CSCCC(=O)NNC(N)=O)cc1c32,2csn
 2csn_decoy_9,C=C1NCC(=CC)C(NC(=O)N[C@H]2CCC[C@@H]3NC(=O)S[C@H]23)=C1C(=O)O,2csn
 2ctc_decoy_1,C[C@@]1(C(=O)NCO)OC(=O)C(=CC(O)=CC[NH3+])S1,2ctc
@@ -10574,7 +10554,6 @@ Ligand,SMILE,PDBCode
 2dkn_decoy_2,C[C@@H](O)CN(CCO)C1=NC2=NN=C(NCCOO)C(=CC(=O)O)N[C@H](CCCOC1=O)C(=O)OC[C@@H]1OC(=O)N2C1=O,2dkn
 2dkn_decoy_3,CON=C1C2=C(C(=CC=CN)OCCOO)OCC(=O)Nc3nnc(o3)[C@H]3CC(=O)N1C(=N2)[C@H]3OC(=O)OCCC(=O)O,2dkn
 2dkn_decoy_4,CNNC(=O)NC(=O)[C@]12COC(=O)N3C(C(=O)COC(=O)COOO)=NN=CC=CC=C(C(=CO)OC)C(=O)N1CC[C@@H]32,2dkn
-2dkn_decoy_5,NC(=O)CN123C(=O)[C@@H]4OCOCCNC5=[N@]16C21=[C@]63C(=CC=COC(=O)OCCN(CC(C(N)=O)=C4C(=O)O)C(=O)OO1)N5,2dkn
 2dkn_decoy_6,CC1=NC=CO[C@](C)(COC=O)C(=O)N2C=NC(O)=CC=C(C(=CO)OO)C(=O)NC(=O)N[C@]3(COOC(=N1)NC3=O)C2,2dkn
 2dkn_decoy_7,NC(=O)C(CC(=O)N1C[C@H]2CC(=O)CN(C(=O)NC(=O)O)CCOC(=O)C(=CO)c3nc(no3)[C@](C(=O)O)(C2)C1)C(N)=O,2dkn
 2dkn_decoy_8,O=C(O)Nc1nc(O)oc1C1=NC2=NC(=CC(=CO)[C@H](O)OCC(=O)NCCN3C(=O)O[C@H](CCN2CCO)C3=O)C1=O,2dkn
@@ -11119,7 +11098,6 @@ Ligand,SMILE,PDBCode
 2fx6_decoy_7,Cc1ccccc1NC(=O)C[N@@H+]1CCCC[C@@H]1CCc1ccc(C(=O)[C@@H]2[C@H](CCCO)NC(=O)[C@@H]3CCCCC[C@@H]2[NH2+]3)cc1,2fx6
 2fx6_decoy_8,Cc1cc([C@@H]2CCC[N@H+]2[C@@H](C)CC(=O)N2C[C@H](CCC[C@@H]([NH3+])CO)CC[C@@H]2C(=O)N2CCCc3ccccc32)ccc1C=O,2fx6
 2fx6_decoy_9,C[C@@H]1CC(=O)[C@H](NC(=O)[C@H](Oc2cccc(Oc3ccc(C(=O)NC[C@H]4CC[N@H+](C)C4)cc3)c2)c2ccc(C[NH3+])cc2)[C@H](C)C1,2fx6
-2fxs_decoy_1,[NH3+]C=[C@]12C=C([C@H]3CCCN3C(=O)Cc3cc(Br)cs3)C3=N145C(=C24)O35,2fxs
 2fxs_decoy_10,C[C@]1([C@@H]2C=C3OC(=O)NCCC[C@@H]3NC2=O)C[NH2+]COC1=O,2fxs
 2fxs_decoy_2,C=CC=C1SC[C@@H]2[NH2+]COc3ccccc3NC(Br)=NC(=O)C=C12,2fxs
 2fxs_decoy_3,CC=C(C=CBr)[C@@H]1CC[C@@H](C)[N@@H+]1Cn1c(=O)[nH]c2ccsc2c1=O,2fxs
@@ -11181,12 +11159,10 @@ Ligand,SMILE,PDBCode
 2fzk_decoy_9,C=C1C(=O)P2C(=NC(=O)OC)CCN(PPC)N2O[C@@H]1C,2fzk
 2g5u_decoy_1,Cc1c(Cl)c(Cl)c(Cl)c2cc(CO)c(O)c(Cl)c12,2g5u
 2g5u_decoy_10,OC(O)C1=CC(Cl)=C(c2c(Cl)ccc(Cl)c2Cl)C1,2g5u
-2g5u_decoy_2,OC1=CCC=C1c1cc(O)c2c(c1)ClClC2(Cl)Cl,2g5u
 2g5u_decoy_3,Cc1c(C)c(O)c(C(Cl)(Cl)Cl)c(C=CCCl)c1O,2g5u
 2g5u_decoy_4,OCc1c(Cl)cc(O)c2c(Cl)c(Cl)c(Cl)cc12,2g5u
 2g5u_decoy_5,Oc1c(Cl)cc(Cl)c(Cl)c1-c1ccc(CCl)o1,2g5u
 2g5u_decoy_6,Cc1cc2c(c(Cl)c1Cl)OC(=CCCl)C(O)=C2Cl,2g5u
-2g5u_decoy_7,Oc1cc(C2=CCOC3=C2CClCl3)c(Cl)cc1Cl,2g5u
 2g5u_decoy_8,Oc1c(-c2ccc(CCCl)o2)cc(Cl)c(Cl)c1Cl,2g5u
 2g5u_decoy_9,OC1=CC(Cl)=CC(Cl)=Cc2cc(Cl)c(Cl)cc21,2g5u
 2g86_decoy_1,N=C(SO)C(=O)N=CC=C(N=O)OOC=O,2g86
@@ -11507,7 +11483,6 @@ Ligand,SMILE,PDBCode
 2haw_decoy_5,N[C@@]1(PO)NC(=Nc2noc3coc(ON4CC4)c23)COO1,2haw
 2haw_decoy_6,O=c1occ(C[C@@]2(CO)NN=NO2)n1C1=N[C@@H](P(O)O)C=C1,2haw
 2haw_decoy_7,OP(O)OC[C@H]1CO[C@@H](C2=NNC3=C4C=NC=CN4ON23)O1,2haw
-2haw_decoy_8,N=C1NC2=NC=C(C(=O)OPO)C3=OO=C4OCCN1[C@@H]2N43,2haw
 2haw_decoy_9,O=C1N[C@@H](COC2=COP(O)N2)O[C@@H]1c1coc2nncn12,2haw
 2hb1_decoy_1,CC1=C(Br)OCC=C1S(=O)(=O)OCO,2hb1
 2hb1_decoy_10,O=C(CSC(=CBr)C(O)=CO)OCO,2hb1
@@ -12014,7 +11989,6 @@ Ligand,SMILE,PDBCode
 2j47_decoy_2,CNC(=O)c1cc(-c2cc(Cl)c(C)cc2Cl)n[nH]1,2j47
 2j47_decoy_3,C=CC(CCc1ccc2[nH]c(=O)[nH]c2n1)=C(Cl)Cl,2j47
 2j47_decoy_4,O=C(NCC1=CCN=C1)Nc1cc(Cl)cc(Cl)c1,2j47
-2j47_decoy_5,CC=c1nc(NCc2ccco2)nc2c1=CClCl2,2j47
 2j47_decoy_6,Nc1cc(-n2ccnc2)cc(Cl)c1OC=CCCl,2j47
 2j47_decoy_7,C=Cc1cc(O)cc(C(O)=C2C=C2)c1,2j47
 2j47_decoy_8,Oc1ccc(O)c(C2=CCCC2)c1,2j47
@@ -12032,7 +12006,6 @@ Ligand,SMILE,PDBCode
 2j4i_decoy_1,CC=CC[C@H]1Cn2nc(CSCC(=O)OC)cc2C[N@@H+]2CCC[C@@H]2C(=O)NC(C)=C(Cl)C=C1C=C(C)Cl,2j4i
 2j4i_decoy_10,C=C1OC=CC=C1CNS(=O)(=O)c1ccc2[nH]c(C[C@H](c3cc(C)c(NC)c(C#N)c3)[NH+](C)C)nc2c1,2j4i
 2j4i_decoy_2,CC[C@@]1(C)CN(S(=O)(=O)c2ccc3c(c2Cl)[C@@H]([NH+](C)C)CC3)CCN1C(=O)c1cc(N(C)C)ccc1Cl,2j4i
-2j4i_decoy_3,C=CC=C1C(OC)=CC2=C(C(=CC)ClCl2)[C@@H]1C(C#N)=C1SCC(=O)N1Cc1cn(CC)c(C=O)[n+]1CC,2j4i
 2j4i_decoy_4,C[NH2+]Cc1cc([SH](=O)=O)ccc1Nc1ccc(OC)c(Nc2nc(C(C)C)cc(N3CCCCC3)n2)c1,2j4i
 2j4i_decoy_5,CNc1cc(CNC(=O)Cc2ccc(C3=CCN(C(=O)NCCc4ccc(C=O)cn4)CC3)s2)cc[nH+]1,2j4i
 2j4i_decoy_6,C=CN(C)CSCc1cc(O[C@@H]2CCN(C(=O)Nc3cc(=O)[nH]c4ncc(C)cc34)C2)ccc1[NH2+]CC,2j4i
@@ -12105,7 +12078,6 @@ Ligand,SMILE,PDBCode
 2j7b_decoy_3,OCC=C1C(=NO)C[C@H](CN2CCOCC2)[C@H]1O,2j7b
 2j7b_decoy_4,O=C1NNCC[C@]12C[C@@](C(=O)O)(C1CC1)CCO2,2j7b
 2j7b_decoy_5,CNC1=C(C(C)=O)C(=O)[C@H]2OCCOCC[C@H]2N1,2j7b
-2j7b_decoy_6,C=C123C4=CO1[C@@H]2[N+]3=C(COC(=O)[C@H](N)C(C)C)O4,2j7b
 2j7b_decoy_7,C=C1NC(=O)C[C@H](O[C@@H]2CCC[C@@H](O)C2)C(=O)N1,2j7b
 2j7b_decoy_8,CO[C@@H](CN)[C@@H]1OCC(=O)NC2=C1C(=O)C[C@H]2C,2j7b
 2j7b_decoy_9,N=C1CCC[C@@H](C(=O)OC[C@@H]2CCOC[C@@H]2O)N1,2j7b
@@ -12240,11 +12212,9 @@ Ligand,SMILE,PDBCode
 2jew_decoy_8,C[C@@H](COC(=O)[C@@H]1COc2c(N)c(S)c3c(c2O1)OCO3)[NH2+]CCS,2jew
 2jew_decoy_9,CSC(N)=CC1=C(C(=O)NC=O)[C@@H](C(=O)NC2=C(O)COC=C2)SC1=O,2jew
 2jf4_decoy_1,CC1(C)CN2CC(=CBr)N=C2CN1C(Br)(Br)Br,2jf4
-2jf4_decoy_10,BrC1(Br)BrBrc2cn3ccc4nccn4c3c21,2jf4
 2jf4_decoy_2,CC=C1N2CC(Br)=NN(C)C2=C(CBr)C1(Br)Br,2jf4
 2jf4_decoy_3,BrC(Br)=CC1=CC(Br)=CC(Br)=Cc2nncn21,2jf4
 2jf4_decoy_4,CN1CC2=C(Br)C(=CCBr)N=C2C1=NC(Br)Br,2jf4
-2jf4_decoy_5,C=C1N=C(N2CCCC2)N=C2[C@@H]1BrBrC2(Br)Br,2jf4
 2jf4_decoy_6,Cn1ncnc1C1=CC(=CBr)C(Br)(Br)C(Br)=C1,2jf4
 2jf4_decoy_7,CC1=CC2=NC=NC=CN2C=C1C(Br)(Br)Br,2jf4
 2jf4_decoy_8,BrCC=C1C(Br)=CC=C(C(Br)Br)c2cnnn21,2jf4
@@ -12894,11 +12864,9 @@ Ligand,SMILE,PDBCode
 2oxy_decoy_2,BrC(Br)=C1C(=C(Br)Br)c2[nH]ncc21,2oxy
 2oxy_decoy_3,BrCC=C1NCC(Br)=NC(Br)=C1Br,2oxy
 2oxy_decoy_4,BrC1=NC=NC(=CC(Br)(Br)Br)C=C1,2oxy
-2oxy_decoy_5,BrC1=NC=CC2=C(N=C1)[C@H](Br)BrBr2,2oxy
 2oxy_decoy_6,C=C1CN(C(Br)(Br)Br)C(=C(C)Br)N1,2oxy
 2oxy_decoy_7,BrC1=CC=NC(=CC(Br)(Br)Br)N=C1,2oxy
 2oxy_decoy_8,BrCC=C1N=CC=C(C(Br)(Br)Br)N1,2oxy
-2oxy_decoy_9,CN1CC(N)=C2BrBrC(C(Br)Br)=C21,2oxy
 2oyl_decoy_1,O=C1N[C@H](OC[C@H](O)CNCCO)[C@H]2OCCO[C@@]2(O)[C@@H]1[C@@H](O)CO,2oyl
 2oyl_decoy_10,CC1=C(CO)COC(=O)N[C@H](O)[C@]2(COCO2)COC[C@@H](O)[C@H]1O,2oyl
 2oyl_decoy_2,NC=C1O[C@H](N)[C@@H](CO)OCOCCOC2=C1[C@H](O)OC2=CCO,2oyl
@@ -13618,7 +13586,6 @@ Ligand,SMILE,PDBCode
 2qci_decoy_6,C[C@H](C[C@@H](C)n1nnnc1NNc1ncc(C(N)=O)cc1Cl)C(=O)N1C(=NNC(=O)O)S[C@@H]2C[S@@](=O)C[C@H]2[C@@H]1O,2qci
 2qci_decoy_7,C[C@H]1OC(=O)[C@](CC[C@@H]2C(=O)N=C(Nc3nnc(-c4n[nH]c(=O)[nH]4)s3)N=C2Cl)(CC(=O)NN(C)S)C[C@@H]1C(N)=O,2qci
 2qci_decoy_8,NSc1nc([C@@H]2N=C(Nc3cc(C(=O)NCC(=O)N[C@H]4CNC(=O)C5=CN=N[C@H]54)ccn3)S[C@@H]2C(=O)O)no1,2qci
-2qci_decoy_9,CC(=O)Nc1ccc(OC[C@H](C)[C@H]2NC(=NC(N)=CCl)NC2=O)cc1NC(=O)C=N[C@]12NNC(=N)[SH]13=NS23(=O)=O,2qci
 2qd6_decoy_1,CCC[C@H]1Oc2ccccc2NC(=O)N[C@@H](C)C(=O)NC[C@H]2OCCC[C@H]2CCC[N@@H+](C[C@@H](C)O)C(C)(C)C1=O,2qd6
 2qd6_decoy_10,Cc1nc([C@@H]2CN(C(=O)Nc3nc(=O)[nH][nH]3)CCO2)sc1CC[C@H](C(=O)NC1=N[S@@](=O)N[C@@H]1Cl)[C@@H](C)NC(N)=O,2qd6
 2qd6_decoy_2,COC1=CC=CC=C2C=C(C(=O)NNC2=O)C(=O)N([C@H]2CC[C@H](C(=O)C=C3CCCCC3)CC2)CC(C(N)=O)=C1,2qd6
@@ -13628,7 +13595,6 @@ Ligand,SMILE,PDBCode
 2qd6_decoy_6,C[C@H](C[C@@H](C)n1nnnc1NNc1ncc(C(N)=O)cc1Cl)C(=O)N1C(=NNC(=O)O)S[C@@H]2C[S@@](=O)C[C@H]2[C@@H]1O,2qd6
 2qd6_decoy_7,C[C@H]1OC(=O)[C@](CC[C@@H]2C(=O)N=C(Nc3nnc(-c4n[nH]c(=O)[nH]4)s3)N=C2Cl)(CC(=O)NN(C)S)C[C@@H]1C(N)=O,2qd6
 2qd6_decoy_8,NSc1nc([C@@H]2N=C(Nc3cc(C(=O)NCC(=O)N[C@H]4CNC(=O)C5=CN=N[C@H]54)ccn3)S[C@@H]2C(=O)O)no1,2qd6
-2qd6_decoy_9,CC(=O)Nc1ccc(OC[C@H](C)[C@H]2NC(=NC(N)=CCl)NC2=O)cc1NC(=O)C=N[C@]12NNC(=N)[SH]13=NS23(=O)=O,2qd6
 2qd7_decoy_1,CCC[C@H]1Oc2ccccc2NC(=O)N[C@@H](C)C(=O)NC[C@H]2OCCC[C@H]2CCC[N@@H+](C[C@@H](C)O)C(C)(C)C1=O,2qd7
 2qd7_decoy_10,Cc1nc([C@@H]2CN(C(=O)Nc3nc(=O)[nH][nH]3)CCO2)sc1CC[C@H](C(=O)NC1=N[S@@](=O)N[C@@H]1Cl)[C@@H](C)NC(N)=O,2qd7
 2qd7_decoy_2,COC1=CC=CC=C2C=C(C(=O)NNC2=O)C(=O)N([C@H]2CC[C@H](C(=O)C=C3CCCCC3)CC2)CC(C(N)=O)=C1,2qd7
@@ -13638,7 +13604,6 @@ Ligand,SMILE,PDBCode
 2qd7_decoy_6,C[C@H](C[C@@H](C)n1nnnc1NNc1ncc(C(N)=O)cc1Cl)C(=O)N1C(=NNC(=O)O)S[C@@H]2C[S@@](=O)C[C@H]2[C@@H]1O,2qd7
 2qd7_decoy_7,C[C@H]1OC(=O)[C@](CC[C@@H]2C(=O)N=C(Nc3nnc(-c4n[nH]c(=O)[nH]4)s3)N=C2Cl)(CC(=O)NN(C)S)C[C@@H]1C(N)=O,2qd7
 2qd7_decoy_8,NSc1nc([C@@H]2N=C(Nc3cc(C(=O)NCC(=O)N[C@H]4CNC(=O)C5=CN=N[C@H]54)ccn3)S[C@@H]2C(=O)O)no1,2qd7
-2qd7_decoy_9,CC(=O)Nc1ccc(OC[C@H](C)[C@H]2NC(=NC(N)=CCl)NC2=O)cc1NC(=O)C=N[C@]12NNC(=N)[SH]13=NS23(=O)=O,2qd7
 2qd8_decoy_1,CCC[C@H]1Oc2ccccc2NC(=O)N[C@@H](C)C(=O)NC[C@H]2OCCC[C@H]2CCC[N@@H+](C[C@@H](C)O)C(C)(C)C1=O,2qd8
 2qd8_decoy_10,Cc1nc([C@@H]2CN(C(=O)Nc3nc(=O)[nH][nH]3)CCO2)sc1CC[C@H](C(=O)NC1=N[S@@](=O)N[C@@H]1Cl)[C@@H](C)NC(N)=O,2qd8
 2qd8_decoy_2,COC1=CC=CC=C2C=C(C(=O)NNC2=O)C(=O)N([C@H]2CC[C@H](C(=O)C=C3CCCCC3)CC2)CC(C(N)=O)=C1,2qd8
@@ -13648,7 +13613,6 @@ Ligand,SMILE,PDBCode
 2qd8_decoy_6,C[C@H](C[C@@H](C)n1nnnc1NNc1ncc(C(N)=O)cc1Cl)C(=O)N1C(=NNC(=O)O)S[C@@H]2C[S@@](=O)C[C@H]2[C@@H]1O,2qd8
 2qd8_decoy_7,C[C@H]1OC(=O)[C@](CC[C@@H]2C(=O)N=C(Nc3nnc(-c4n[nH]c(=O)[nH]4)s3)N=C2Cl)(CC(=O)NN(C)S)C[C@@H]1C(N)=O,2qd8
 2qd8_decoy_8,NSc1nc([C@@H]2N=C(Nc3cc(C(=O)NCC(=O)N[C@H]4CNC(=O)C5=CN=N[C@H]54)ccn3)S[C@@H]2C(=O)O)no1,2qd8
-2qd8_decoy_9,CC(=O)Nc1ccc(OC[C@H](C)[C@H]2NC(=NC(N)=CCl)NC2=O)cc1NC(=O)C=N[C@]12NNC(=N)[SH]13=NS23(=O)=O,2qd8
 2qdt_decoy_1,CC1(C)CCCNC(=O)O1,2qdt
 2qdt_decoy_10,NCCOC1CCCC1,2qdt
 2qdt_decoy_2,Cc1[nH]cc(C(=O)O)c1C,2qdt
@@ -14641,7 +14605,6 @@ Ligand,SMILE,PDBCode
 2v57_decoy_9,Cc1ccc([C@H](O)CNC(=O)NCC(=O)Oc2cc(C(F)(F)F)sc2CO)s1,2v57
 2v58_decoy_1,CC1=C(N)[C@H](c2cc(Br)c(C)cc2Br)Nc2nn[nH]c21,2v58
 2v58_decoy_10,CCSCc1c(O)[nH]c(=O)n(CC[NH2+]CC2=CO[S@](=O)S2)c1=O,2v58
-2v58_decoy_2,NC1=NC=C(c2ccnn2)Nc2cc3c(cc21)BrBrC3,2v58
 2v58_decoy_3,C=C1C2=C(CN=C(Nc3cccnc3)N2)[C@H](N)C1(Br)Br,2v58
 2v58_decoy_4,NC1=CN=CC(c2c(CBr)[nH]c3ccc(Br)cc23)=NN1,2v58
 2v58_decoy_5,NC1=NNC(=CC(Br)Br)C(c2nc3ccccc3[nH]2)=C1,2v58
@@ -14814,7 +14777,6 @@ Ligand,SMILE,PDBCode
 2vhw_decoy_2,C[C@@H](O)CN(CCO)C1=NC2=NN=C(NCCOO)C(=CC(=O)O)N[C@H](CCCOC1=O)C(=O)OC[C@@H]1OC(=O)N2C1=O,2vhw
 2vhw_decoy_3,CON=C1C2=C(C(=CC=CN)OCCOO)OCC(=O)Nc3nnc(o3)[C@H]3CC(=O)N1C(=N2)[C@H]3OC(=O)OCCC(=O)O,2vhw
 2vhw_decoy_4,CNNC(=O)NC(=O)[C@]12COC(=O)N3C(C(=O)COC(=O)COOO)=NN=CC=CC=C(C(=CO)OC)C(=O)N1CC[C@@H]32,2vhw
-2vhw_decoy_5,NC(=O)CN123C(=O)[C@@H]4OCOCCNC5=[N@]16C21=[C@]63C(=CC=COC(=O)OCCN(CC(C(N)=O)=C4C(=O)O)C(=O)OO1)N5,2vhw
 2vhw_decoy_6,CC1=NC=CO[C@](C)(COC=O)C(=O)N2C=NC(O)=CC=C(C(=CO)OO)C(=O)NC(=O)N[C@]3(COOC(=N1)NC3=O)C2,2vhw
 2vhw_decoy_7,NC(=O)C(CC(=O)N1C[C@H]2CC(=O)CN(C(=O)NC(=O)O)CCOC(=O)C(=CO)c3nc(no3)[C@](C(=O)O)(C2)C1)C(N)=O,2vhw
 2vhw_decoy_8,O=C(O)Nc1nc(O)oc1C1=NC2=NC(=CC(=CO)[C@H](O)OCC(=O)NCCN3C(=O)O[C@H](CCN2CCO)C3=O)C1=O,2vhw
@@ -14826,7 +14788,6 @@ Ligand,SMILE,PDBCode
 2vj8_decoy_4,O=C(Nc1nnc(-c2ccccc2)s1)c1[nH]c2ccccc2c1N[C@H]1CCS(=O)(=O)C1,2vj8
 2vj8_decoy_5,Cc1cccc([C@@H]2N=CS2)c1NC(=O)CSc1ncc2c3c(c[nH]c(=O)c13)CC(=O)N2,2vj8
 2vj8_decoy_6,O=C1c2cnccc2-c2[nH]c(=NC3=C[C@H](CNS(=O)(=O)Nc4ccccc4)CC3)sc21,2vj8
-2vj8_decoy_7,CCc1ccc(-n2nnc3c(C(=O)NC4=C[C@H]5CS6(=O)(=O)C(=C4)[S@@H]56)cccc32)cc1N,2vj8
 2vj8_decoy_8,N[C@@H](c1ccc(C2=NNS(=O)(=O)C2=C[SH]=O)cc1)[C@H]1N=C2CCCN2c2ccccc21,2vj8
 2vj8_decoy_9,C[C@H]1CCc2c(NCC3=Nc4ccc(NC(=O)NC5CC5)cc4S(=O)(=O)N3)csc2C1,2vj8
 2vjx_decoy_1,CC(C)CCOC(=O)C[C@H]1C2=CCC=C2CC[C@@H]1[NH3+],2vjx
@@ -15803,7 +15764,6 @@ Ligand,SMILE,PDBCode
 2x5w_decoy_10,CC=C1Cc2[nH]c(C(=O)OCC)c(CC(N)=O)c2Cc2cc3ccccc3n21,2x5w
 2x5w_decoy_2,C=CC(=CC)CN1CCOC[C@@H]1CNC(=O)Nc1cc2ccccc2cc1O,2x5w
 2x5w_decoy_3,Nc1cncc(C(=O)NC2CCCC2)c1C(=O)OCc1cccc(C2CC2)c1,2x5w
-2x5w_decoy_4,O=C(CNC(=O)NCc1ccc(C23=C4C5=C6O7C2=C56473)cc1)Nc1ccccc1,2x5w
 2x5w_decoy_5,CCNCc1cc(NC(=O)c2[nH]c3c(c2C)C(=O)CCC3)c(OCC)cc1C,2x5w
 2x5w_decoy_6,CC(C=O)=CNC(=O)Nc1ccc2c(c1)C(=O)c1cc(NCC(C)C)ccc1-2,2x5w
 2x5w_decoy_7,Cc1cc(NC=C2C=CC=C[C@@H]2C)cc(NC(=O)NC2=CC(=O)C(=O)C=C2)c1,2x5w
@@ -15839,7 +15799,6 @@ Ligand,SMILE,PDBCode
 2x8z_decoy_7,NC(=CNN=O)C=C(O)C([NH3+])=O,2x8z
 2x8z_decoy_8,NOC(=CC(N)=CO[NH3+])C(N)=O,2x8z
 2x8z_decoy_9,NC(O)=C(N)C=N[C@H](O)C([NH3+])=O,2x8z
-2x91_decoy_1,C[C@]12C3=C4C=C[N+]5(c6cnc7cc(NC(=O)CCN8C(=O)CCC8=O)ccc7c6)C1=N4325,2x91
 2x91_decoy_10,CC(=O)Nc1ccc(NC(=O)CC2=CSC=CC2=C[C@H]2CCCN2C(C)=O)cc1,2x91
 2x91_decoy_2,COc1cc2c(cc1CCn1c(=O)[nH]c3nc(N4CCC[C@H](C)C4)ncc31)O[C@@H](C)C2,2x91
 2x91_decoy_3,CCn1nnc2cc(C(=O)Nc3cccc(-c4c(C)ccc5c4OCCO5)n3)ccc21,2x91
@@ -16308,7 +16267,6 @@ Ligand,SMILE,PDBCode
 2y5h_decoy_6,Cn1c(N2C(=O)C(=Cc3ccco3)C[C@H]2C(=O)Nc2ccccn2)nc2ccccc21,2y5h
 2y5h_decoy_7,CC=C1CN(c2cc(N3CC(=O)N(Cc4ccoc4)C3=O)ccn2)CC2=CCC=C2N1,2y5h
 2y5h_decoy_8,Cc1nc2cc(NC(=O)CN3C(=O)C=C(C4=CCCCC4)C3=O)nn2c2c1CCCC2,2y5h
-2y5h_decoy_9,CC1=NN(c2ccc(C(=O)Nc3ccc(C)cc3)cn2)C(=O)C1=CC12=C3C4=C5O6C1=N45362,2y5h
 2y7x_decoy_1,COC(=O)[C@@]1(C)C[C@H](NC(=O)N2C[C@@H](O)[C@@H](C[NH2+]C[C@@H]3CCCO3)C2)C(=C(C)C)[C@]1(C)O,2y7x
 2y7x_decoy_10,CC[C@H](C(=O)C(C)=C1C2=C(O[C@@H](CCO)C#C[C@H](CC)CCOCC2=O)[C@@H](O)[C@H]1C)C(O)O,2y7x
 2y7x_decoy_2,CCOC[C@]1(O)CCc2cc(C#N)ccc2OCC(=O)N[C@@H]2CO[C@@H](CO)[C@H]2C[NH2+][C@@H]1CO,2y7x
@@ -16569,7 +16527,6 @@ Ligand,SMILE,PDBCode
 2yix_decoy_7,C=C(C=C1C(=O)Nc2c1c[nH]c(=O)c2C)CO,2yix
 2yix_decoy_8,C=CC1=C(n2c(=O)occ(N)c2=O)CCCC1,2yix
 2yix_decoy_9,C=CC(=N)Oc1ccc2cc(N)c(=O)oc2c1,2yix
-2yk1_decoy_1,CC1=C2C(=N)N(CC[NH3+])C(=CBr)C2=C(Br)BrBr1,2yk1
 2yk1_decoy_10,C=CCOc1cc(Cl)c(O)cc1Cl,2yk1
 2yk1_decoy_2,CCNc1[nH]c(C(C=C(Br)Br)=CC(Br)Br)c[nH+]1,2yk1
 2yk1_decoy_3,NCN1CCN(C(C=CBr)=CC(Br)(Br)Br)CC1,2yk1
@@ -16623,7 +16580,6 @@ Ligand,SMILE,PDBCode
 2yoo_decoy_10,CC=C1Cc2[nH]c(C(=O)OCC)c(CC(N)=O)c2Cc2cc3ccccc3n21,2yoo
 2yoo_decoy_2,C=CC(=CC)CN1CCOC[C@@H]1CNC(=O)Nc1cc2ccccc2cc1O,2yoo
 2yoo_decoy_3,Nc1cncc(C(=O)NC2CCCC2)c1C(=O)OCc1cccc(C2CC2)c1,2yoo
-2yoo_decoy_4,O=C(CNC(=O)NCc1ccc(C23=C4C5=C6O7C2=C56473)cc1)Nc1ccccc1,2yoo
 2yoo_decoy_5,CCNCc1cc(NC(=O)c2[nH]c3c(c2C)C(=O)CCC3)c(OCC)cc1C,2yoo
 2yoo_decoy_6,CC(C=O)=CNC(=O)Nc1ccc2c(c1)C(=O)c1cc(NCC(C)C)ccc1-2,2yoo
 2yoo_decoy_7,Cc1cc(NC=C2C=CC=C[C@@H]2C)cc(NC(=O)NC2=CC(=O)C(=O)C=C2)c1,2yoo
@@ -16668,7 +16624,6 @@ Ligand,SMILE,PDBCode
 2z4o_decoy_6,C[C@H](C[C@@H](C)n1nnnc1NNc1ncc(C(N)=O)cc1Cl)C(=O)N1C(=NNC(=O)O)S[C@@H]2C[S@@](=O)C[C@H]2[C@@H]1O,2z4o
 2z4o_decoy_7,C[C@H]1OC(=O)[C@](CC[C@@H]2C(=O)N=C(Nc3nnc(-c4n[nH]c(=O)[nH]4)s3)N=C2Cl)(CC(=O)NN(C)S)C[C@@H]1C(N)=O,2z4o
 2z4o_decoy_8,NSc1nc([C@@H]2N=C(Nc3cc(C(=O)NCC(=O)N[C@H]4CNC(=O)C5=CN=N[C@H]54)ccn3)S[C@@H]2C(=O)O)no1,2z4o
-2z4o_decoy_9,CC(=O)Nc1ccc(OC[C@H](C)[C@H]2NC(=NC(N)=CCl)NC2=O)cc1NC(=O)C=N[C@]12NNC(=N)[SH]13=NS23(=O)=O,2z4o
 2z6j_decoy_1,CC=C(C(=O)NC=C1OC[C@@H]2C(=O)N([C@H]3C=NNC3=O)C(=O)C=C12)C(=CO)OP(O)O,2z6j
 2z6j_decoy_10,CC=C(C=COP(O)O)C(=O)NC(=O)NC(=O)C(=O)OCCN1C[C@H]2CC[C@H](N2)C1=O,2z6j
 2z6j_decoy_2,COC(=O)[C@]1(c2nc(-c3ccc(O)cn3)no2)CN(C[C@@H](O)P(O)O)C[C@]1(C)CO,2z6j
@@ -18009,7 +17964,6 @@ Ligand,SMILE,PDBCode
 3cb0_decoy_7,O=CC=CC=C1C(=CC2=NOCO2)NC(=O)[C@@]12CN(CC(=O)NCCP(O)O)C(=O)O2,3cb0
 3cb0_decoy_8,O=C1NC(=O)[C@H](C(=O)N2CCOC[C@]2(CO)CNCCCP(O)O)N2C(=O)CC[C@H]12,3cb0
 3cb0_decoy_9,O=C(NCCO)C1=C(N=c2nc[nH]cc2C(=O)C2=CCOC=C2)OC[C@@H](OP(O)O)O1,3cb0
-3cct_decoy_1,CCc1oc(C(=O)NC[C@@H](NC(=O)COC2=CC345=CC36=C243C(=O)O653)[C@@]2(OC)CC[C@@H](SC)C[C@H]2C)c(C)c1C(=O)OC,3cct
 3cct_decoy_10,COc1cc(OCC(=O)N2CCC[C@@]2(C(N)=O)c2nc3c(s2)[C@H](O)[C@H](C=O)[C@H](C)C3)cc(OC2CCCCC2)c1OC,3cct
 3cct_decoy_2,COc1ccc(C(=O)N2CCC[C@H]2c2ccc(O)c(O)c2)cc1OC[C@@H]1CN(C(=O)[C@@H]2CCO[C@@H]2C[SH]=O)C[C@H](C)O1,3cct
 3cct_decoy_3,CC[S@](=O)C(=O)COc1ccc(C(=O)OC)cc1OCC(=O)N(C)C[C@@H]1CCC[C@H]1C[C@]12C[C@H](C)C[C@H](C1)NC2=O,3cct
@@ -18766,7 +18720,6 @@ Ligand,SMILE,PDBCode
 3dp9_decoy_4,Nc1cc(-c2cc(CN[C@@H]3CCC[C@@H](CCl)C3)[nH]n2)cc[nH+]1,3dp9
 3dp9_decoy_5,CC1=CCc2c(nc(Nc3cc(Cl)ncc3Cl)nc2[C@H](C)[NH3+])C1,3dp9
 3dp9_decoy_6,NC1=C2CCCC(Cl)(Cl)C2=NC1=Cc1cccc(NCC[NH3+])n1,3dp9
-3dp9_decoy_7,CC1=C2N=CC=C(CNC3CCCC3)C=C2BrO1,3dp9
 3dp9_decoy_8,C[C@@H]1C[C@@H](NC(=O)NC2=C(Br)C=C2)CC(C)(C)C1,3dp9
 3dp9_decoy_9,O=C1CNCNC2=C1[C@H]1CCCC1=C(Br)CCC2,3dp9
 3dst_decoy_1,CCOP(CCCP=O)O[C@H](OC)c1cc(OC)cc(C(=CCOC)COC)c1,3dst
@@ -19457,7 +19410,6 @@ Ligand,SMILE,PDBCode
 3f80_decoy_5,C[C@@H]1COC(=O)N(C)[C@H](c2cc(C(N)=O)n[nH]2)N1,3f80
 3f80_decoy_6,CC1=NC(NNC(=O)O)=C2C(=O)N=CC=C2CN1,3f80
 3f80_decoy_7,N#CC1=C(NC(=O)N[C@@H]2CCOC2)C(=O)NC1=N,3f80
-3f80_decoy_8,C=CC[N@+]1(O)[S@@]23C(=O)C12(N)[SH]3(F)(CC(O)=C(C=C(O)[C@@H](C)O)CO)N(F)F,3f80
 3f80_decoy_9,CCNC1=C(CC)SOC(N2C[C@@](OOO)([C@@H](C)O)N=C2C[C@@]([O-])(F)OF)=N1,3f80
 3f8c_decoy_1,C[C@]1(O)OCO[C@H]2[C@H]1O[C@H](CO[C@@H](OCCO)[C@H](O)COCC(=O)O)[C@@]2(O)C[C@H](O)CO,3f8c
 3f8c_decoy_10,Cc1cccc(C(Cl)=CC(=O)Nc2cc(-c3ccc(NC(=O)c4ccc(S)o4)nc3)cc(=O)[nH]2)c1,3f8c
@@ -19847,7 +19799,6 @@ Ligand,SMILE,PDBCode
 3g32_decoy_5,CCCON=C(Cl)OO[C@]1(CC)CCSN1,3g32
 3g32_decoy_6,C=C(NC)[C@@](C)(Cl)ON(O[C@@]1(C)OOSC1=O)C(=O)Cl,3g32
 3g32_decoy_7,CO[C@]1(OS)COC(=C(O)CO)[C@H](N=C(Cl)Cl)N1C,3g32
-3g32_decoy_8,CC=CC(=O)C12(N=C(Cl)OCl)N(O)O1S2(C)(C)(C)O,3g32
 3g32_decoy_9,C=CC[C@@H]1N=S2(OC(C)(C)O)(C(O)(Cl)Cl)ON1OC2=O,3g32
 3g34_decoy_1,OCc1nnc(-c2cnn3c2NCS3)c2ccncc12,3g34
 3g34_decoy_10,C=C1NSCC=C1c1nnc(-c2nnn(CC)c2C)o1,3g34
@@ -20585,7 +20536,6 @@ Ligand,SMILE,PDBCode
 3hll_decoy_3,CC=C1N=C2N=N[C@H]3C2=C(ON=C(N)C=CCC1=CF)C(=O)N3c1cccc(C)c1,3hll
 3hll_decoy_4,CC1(C)C[C@H](CCCCl)[C@H](C[NH2+]C(=O)c2cc(-c3[nH]c(=O)n4c(=S)[nH]ccc34)c[nH]2)C1,3hll
 3hll_decoy_5,C=C1C=C(COc2cc(Cl)ccc2NC(=S)Nc2ccc3c(c2)C[NH2+]CN3)C=NC1=O,3hll
-3hll_decoy_6,Cc1cc2c3c(cc(NC(=O)NCC[N@H+]4CCc5cocc5C4)c2nc1C)Cl[SH]=C3N,3hll
 3hll_decoy_7,CSc1cc2c([C@H](C)[NH2+]CCNC(=O)Nc3ccc4c(c3Cl)CCO4)c(C)[nH]c2cn1,3hll
 3hll_decoy_8,O=C1NNCCN1C(=O)Nc1cccc2c(SCC[NH2+]CC3=CCC=C3Cl)cccc12,3hll
 3hll_decoy_9,O=C(Nc1ccc(Cl)cc1)c1c[nH][nH+]c1CNc1cccc(N[C@@H]2COCCSC2)c1,3hll
@@ -21184,7 +21134,6 @@ Ligand,SMILE,PDBCode
 3ivx_decoy_2,O=c1[nH]c(C(Cl)=C(F)F)ccccc(SCF)c(=O)[nH]c2ccc3c(c2o1)OCCO3,3ivx
 3ivx_decoy_3,COC(=O)c1ccccc1NC(=O)N[C@@H](C)C1=C(C=C(Cl)C(F)(F)F)S(=O)(=O)C(C)=C1,3ivx
 3ivx_decoy_4,C[C@]1(C(=O)NC(=O)c2cc3c([nH]c2=O)CC(=CCCC(F)(F)F)OC3)CSCCO1,3ivx
-3ivx_decoy_5,COc1c(O)nc2c(c1C(=O)N1CCOCC1)[C@@H]1C(=CCCl)C(=C(F)F)C[S@@H]1O2C,3ivx
 3ivx_decoy_6,CC=C1C[C@@H](C(=O)NC(=Cc2ccc(C(F)(F)Cl)cc2)C(=O)OCC)NS(=O)(=O)[C@@H]1F,3ivx
 3ivx_decoy_7,CSC1=CCC(=O)C2=C(N)OC(C(=O)NC(SC)=C(C(=O)O)C(F)(F)F)=C(C)[C@H]12,3ivx
 3ivx_decoy_8,O=C(C=C1NC=C(C=C(C=C2SC(=S)N(CCO)C2=O)CO)O1)CCC(F)(F)F,3ivx
@@ -21679,7 +21628,6 @@ Ligand,SMILE,PDBCode
 3kmy_decoy_7,CC(C)=C1C2=CCC[C@]2(C)CN1c1cc2ccccc[nH]c-2ncn1,3kmy
 3kmy_decoy_8,CCNc1nc(-c2cc(C)c3ncccc3c2)nc2c1CCC(C)=C2,3kmy
 3kmy_decoy_9,C=Cc1nc(N=c2cc[nH]c3nc4ccccc4c(C)c23)ccc1C,3kmy
-3kqr_decoy_1,CN(CC[C@H]1C234=OC256=CN532C(=O)N1642)CC(=O)NS(C)(=O)(O)CCOC(=O)O,3kqr
 3kqr_decoy_10,COc1nc2c(s1)NC=CNC(=O)O[C@H](COOOO)C=C1C=CC(=O)N12,3kqr
 3kqr_decoy_2,O=C(NC[C@H]1OCCNC1=O)Nc1nc(C(=O)OCCOCOO)cs1,3kqr
 3kqr_decoy_3,C[C@@H](CSc1nnc(C=C(O)NC(=O)O)n1C)OC(=O)COC(=O)COO,3kqr
@@ -21926,7 +21874,6 @@ Ligand,SMILE,PDBCode
 3ljz_decoy_4,CC(=O)C(=O)N[C@H]1CCC(=O)NCCCC=C[C@H]2C[C@H](Cl)CN2C(=O)c2cccc(c2)NC(=O)C1,3ljz
 3ljz_decoy_5,Cc1[nH]c2cc(Cl)c(O)cc2c1[C@@]1(O)CCN(C(=O)CN2C(=O)[C@@H](C(C)C)N(C)C2=O)C[C@@H]1C,3ljz
 3ljz_decoy_6,CC(C)(S[C@@]1(Cl)SCC[C@]12OC[C@H](N)C(O)(O)S2(=O)(O)O)C(=O)S[C@](F)(C(N)=O)[C@](O)(C[NH3+])CO,3ljz
-3ljz_decoy_7,C[C@H](N)C12(C)S[C@](C(=O)O)([C@@H](O)CN)[S@@H]1[SH]2(Cl)(S[C@@](C[NH3+])(C(=O)O)[C@@H](O)CO)S(=O)(=O)CCCO,3ljz
 3ljz_decoy_8,COC(=O)[C@@](CO)(O[S@@H](C)[C@](SCl)(S[C@@]1(N)C[C@@H](O)C[C@](F)([C@@](C)(O)C(=O)O)S1)C(N)=O)C(N)=O,3ljz
 3ljz_decoy_9,NC(=O)CSC(=S)C(=O)[C@]1(O)CO[C@@H](Cl)C(=O)SS[C@](N)(COC[C@@H](O)C[NH3+])COC[C@H]1O,3ljz
 3lk8_decoy_1,C1=CC(OC2CCOCC2)=CCO1,3lk8
@@ -23456,7 +23403,6 @@ Ligand,SMILE,PDBCode
 3ozv_decoy_4,CC=C1N(CCCc2nc(Cl)ccc2-c2ccoc2)CCC1(Cl)Cl,3ozv
 3ozv_decoy_5,ClCC=Cc1ccc([C@H]2CCCN2N=Cc2cc(Cl)cc(Cl)c2)o1,3ozv
 3ozv_decoy_6,C=CC(=CC(Cl)Cl)[C@H]1N(C)c2cc(Cl)ccc2N1Cc1ccco1,3ozv
-3ozv_decoy_7,C=CCN(CCC1=NC=C(Cl)CC2=C1C(=C)ClCl2)C(=O)C1(C)CC1,3ozv
 3ozv_decoy_8,O=c1c2c(Cl)cccc2ccn1CCC(=CC1=CCC=N1)C(Cl)Cl,3ozv
 3ozv_decoy_9,C[C@@H](Cl)C[C@H](CC1=C(Cl)CC=C1Cl)n1ncc2ccccc2c1=O,3ozv
 3p17_decoy_1,CC(=CC(=O)Nc1ccc(NCC2=CCN=C2)cc1)[NH2+]C1CCOCC1,3p17
@@ -23750,7 +23696,6 @@ Ligand,SMILE,PDBCode
 3pfp_decoy_8,CC(=O)CNCCC(C(=O)O)(P(O)O)P(O)O,3pfp
 3pfp_decoy_9,O=C(OCCN1CCOCC1)P(O)P(O)O,3pfp
 3pgu_decoy_1,C[NH2+][C@H]1CC(=NN)CC[C@H]1O[C@@H]1CCC(=O)OC1,3pgu
-3pgu_decoy_10,O=c1nnc(CO)c(O)c1Sc1nccc2c(Br)c3c(cc12)ClSC3,3pgu
 3pgu_decoy_2,C[C@H]1C=C(C(=O)Nc2[nH]c(=O)[nH]c2C=O)C[NH2+]C1,3pgu
 3pgu_decoy_3,C[C@@]1(C(N)=O)CC[N@@H+]([C@H]2C(=O)NCC=C2C(N)=O)C1,3pgu
 3pgu_decoy_4,[NH3+]CCC(=O)N1C[C@@H](CO)NC[C@@H]1C1=CCN=C1O,3pgu
@@ -23936,7 +23881,6 @@ Ligand,SMILE,PDBCode
 3q2j_decoy_4,CC=C1C=C2CC[C@@H](SC3=NNC(=O)CN3C[C@@H](O)CO)C(=O)C2=CN1,3q2j
 3q2j_decoy_5,CC1=C(CCCO)C(=O)NC1=Cc1ccn(C2=C[C@@H](N)S(=O)(=O)C=C2)n1,3q2j
 3q2j_decoy_6,C[C@@H](SC[C@@H](O)c1ccc(CO)o1)c1nn(-c2ccc(N)cc2)c(=O)[nH]1,3q2j
-3q2j_decoy_7,COc1c(O)cc(C)cc1[C@@H]1CC2=C3C[S@H](CN)O=C3NN=C2C(=O)N1,3q2j
 3q2j_decoy_8,CC1=N[C@H]2C=Cc3c(O)c(C(=O)CSCCC(=O)NNC(N)=O)cc1c32,3q2j
 3q2j_decoy_9,C=C1NCC(=CC)C(NC(=O)N[C@H]2CCC[C@@H]3NC(=O)S[C@H]23)=C1C(=O)O,3q2j
 3q44_decoy_1,CCCCc1c(C)sc2[nH]c(=O)n(-c3cc(C(=O)CCC(F)F)ccc3C=O)c(=O)c12,3q44
@@ -26004,7 +25948,6 @@ Ligand,SMILE,PDBCode
 3uxm_decoy_2,O=C(OCCO)c1ccc(C(=O)N2CCC[C@H]2C(=CO)C(O)=CO)c(O)c1Cl,3uxm
 3uxm_decoy_3,CC(=O)c1cc(OC(=O)CC(=CO)c2ccc(C(N)=O)o2)c(O)cc1CCl,3uxm
 3uxm_decoy_4,S=C1C[NH2+]CC[C@]2(CCCN(C=CC=CC3=C(Br)COO3)CC2)N1,3uxm
-3uxm_decoy_5,C=C1C=C2BrO([C@H]3CO[C@]4(CCSC4)C3)c3nnc(C)c(c32)[NH2+]C1,3uxm
 3uxm_decoy_6,Cc1cc2c(cc1C)N1NC(C=C(Br)C3=C[S@](=O)OC=C3)=[NH+][C@@H]1C2,3uxm
 3uxm_decoy_7,Cc1ccc(C=C(O)C=C2N=CC(Br)=C2C[N@@H+]2CCNC(=S)C2)o1,3uxm
 3uxm_decoy_8,CCC[N@@H+]1CCNC2=C1C(=CC=C(Br)C=CC1CCC1)S(=O)(=O)N2,3uxm
@@ -26298,7 +26241,6 @@ Ligand,SMILE,PDBCode
 3vhh_decoy_6,C=C(C=N)CN1CCCc2cnc(NCc3ccn[nH]3)nc2C1,3vhh
 3vhh_decoy_7,OC(CCl)=C(Cl)C(Cl)=C(Cl)Cl,3vhh
 3vhh_decoy_8,O=C1C=C(Cl)C(Cl)=C1C(Cl)(Cl)Cl,3vhh
-3vhh_decoy_9,ClC1(Cl)ClClC2=C1COCC2,3vhh
 3vhk_decoy_1,CC1CCN(c2[nH+]c(-c3n[nH]c(=N)n3CCO)ccc2N)CC1,3vhk
 3vhk_decoy_10,Nc1ccc(Nc2cnccn2)cc1NC1=[NH+]CCN1CCO,3vhk
 3vhk_decoy_2,CCN1C[NH2+][C@@H](C)c2[nH]c(C(=O)NN=C3CCCCCN3)nc21,3vhk
@@ -27993,7 +27935,6 @@ Ligand,SMILE,PDBCode
 4bak_decoy_10,Cc1nc2nc(C(C)C)nn2cc1[C@@H](c1ccc(Cl)cc1)c1c(C2=CC(Cl)=C=C2)n[nH]c1CCO,4bak
 4bak_decoy_2,Cc1nc2ccccn2c(=O)c1CCNS(=O)(=O)N[C@@H](C)c1cc2c3c([nH]cc3c1)CCC2,4bak
 4bak_decoy_3,CSCc1cc(C)cc(C)c1NC(=O)c1ccc(C)c(Nc2ncc3c(n2)OC(=NC=O)C3)c1,4bak
-4bak_decoy_4,C=CCn1cc(-c2cc3c4c5c(ncc4n2)NC2=C(C5=OCl3)[C@@H](CNCCCl)CC(C)(C)C2)cn1,4bak
 4bak_decoy_5,C[C@@H]1CN(CCCl)C2=C1C=C(C(=O)NC=Nn1c(C3CCCCC3)nc3ccccc31)C(=CCl)N2,4bak
 4bak_decoy_6,C=CC(=CC(Cl)Cl)C1=NC[C@@H]2C3=C(CCC=C3)Nc3[nH]c(=Nc4cc(C#N)ccc4OC)nc1c32,4bak
 4bak_decoy_7,CCOCc1cc(-n2nc(C)c([C@@H]3CN(Cc4nc5ccc(Cl)cc5[nH]4)CCN3)c2C)ccc1Cl,4bak
@@ -28133,11 +28074,8 @@ Ligand,SMILE,PDBCode
 4bf6_decoy_10,[NH3+]C=C(Br)C=CC1=C(Br)C=C(Br)NC(CBr)=N1,4bf6
 4bf6_decoy_2,CN1CCC[C@]12CCC[N@H+](C)C2,4bf6
 4bf6_decoy_3,CCN1CC[N@@H+]2CCCC[C@H]1C2,4bf6
-4bf6_decoy_4,BrCC1=C2NC(c3ncc[nH+]3)=CC(Br)=C2BrBr1,4bf6
 4bf6_decoy_5,Brc1cc(NCC2=C[NH2+]C=N2)c(Br)c(Br)c1Br,4bf6
 4bf6_decoy_6,Brc1cc[nH+]c(NCc2[nH]c(Br)c(Br)c2Br)c1,4bf6
-4bf6_decoy_7,C=CCN1C(Br)=C(C[NH3+])C=C2BrBrC(Br)=C21,4bf6
-4bf6_decoy_8,CC=C1C=C(Br)[NH+]=C(N)N1CC1=C(Br)BrBrC1,4bf6
 4bf6_decoy_9,N=C(C(Br)=C[NH3+])N1CC(=CCBr)C(=C(Br)Br)C1,4bf6
 4bfw_decoy_1,Cc1cc2cnccc2cc1NC(=O)NCC(=O)n1nc(-c2cc(C)c(F)c(F)c2)c(-c2cc[nH+]cn2)c1N,4bfw
 4bfw_decoy_10,Cc1cc(CC(=O)Nc2ccc(OCC(=O)NNC(=O)Nc3ccc([C@@H]([NH3+])CO)c(N)c3)cc2)c(O)cc1O,4bfw
@@ -29329,7 +29267,6 @@ Ligand,SMILE,PDBCode
 4dkp_decoy_7,CCCC1=C(C2=C3C=C[C@@H](F)C([NH3+])=C3CO2)[C@H](OCC)CCC1=O,4dkp
 4dkp_decoy_8,CCc1oc2c(c1C[N@H+]1CC[C@@H](c3cocc3F)C1)CCCC2,4dkp
 4dkp_decoy_9,Cc1cc(F)ccc1[C@@H](C)[NH2+]C[C@@H]1OCc2cc3c(cc21)OCO3,4dkp
-4dkq_decoy_1,NC(=O)CCN1C(=O)NCCC2=C(C=CC=C3CNC(N)=C3C1=O)ClFC2,4dkq
 4dkq_decoy_10,C1=CC(c2ccn[nH]2)=CCO1,4dkq
 4dkq_decoy_2,C=C(F)C(C=C(N)C=C1C=C(C(=O)N[C@H]2CCOC2)C(=O)NN1N)=C(C)Cl,4dkq
 4dkq_decoy_3,COC1=NC(N)=C2C=CC=C12,4dkq
@@ -29497,7 +29434,6 @@ Ligand,SMILE,PDBCode
 4e1k_decoy_5,CC[N@@H+]1CCC[C@@H]1CN(C)C1=C(C2=C(Cl)CCCC2)C(=O)N(C(=O)[C@H]2CC=NO2)CS1,4e1k
 4e1k_decoy_6,O=C(COc1ccc(Cl)cc1N=C1COCCS1)CN1C[C@H]2[C@@H]3CCCC[N@@H+]3CN2C1,4e1k
 4e1k_decoy_7,C[C@@H](OC(=O)c1nnc([C@H](C)C[N@H+]2CC[N@H+]([C@@H]3CCCOC3)CC2)s1)C1=CCC(Cl)=C1,4e1k
-4e1k_decoy_8,C=CN1C[C@@](Cl)(C(=O)O[C@H]2C[N@@H+](Cc3ccccc3)CC[C@@H]2OC)C2=C34C1=[N+]1C5=N13S254,4e1k
 4e1k_decoy_9,CCc1cc(C[N@H+]2CCN(C(=O)CN3C(=O)CC[C@@H]4C[C@@H]43)C[C@H]2c2ccc(Cl)s2)on1,4e1k
 4e1m_decoy_1,Cn1c(=O)c(NC(=O)C2=CCC=C2)cc2cc(F)c(N)cc21,4e1m
 4e1m_decoy_10,Cc1ccc(NC(=O)NCC2=CCOC=C2F)c2c1NCC2,4e1m
@@ -29646,7 +29582,6 @@ Ligand,SMILE,PDBCode
 4edf_decoy_4,COOP(COc1coop(OCN)o1)O[C@@H]1CN(F)C(=O)CN(C(=O)OC=C=C=C=O)C(=O)NCOOO1,4edf
 4edf_decoy_5,COCC1=C(N)OOOOOOO[C@](C)(F)C(=O)N=C1NP1PO[C@H](C(=O)O)C(C=C(C)C)=C1N=O,4edf
 4edf_decoy_6,COC1=CN(N[C@@H](C)OC)C(=O)NC1=CC(=COOOCP(O)P)OC(=O)OCOO[C@@](F)(C=O)NOOO,4edf
-4edf_decoy_7,COOO[C@@H]1OC2=C(N3CC[C@H](P)OOP=NOC(=O)C(=COC(=O)F)C3=O)[N+]3(OC(=O)OC)[C@@H]1N(C=O)O23,4edf
 4edf_decoy_8,C=N[C@@]12OP=C3OO[C@@](CC(=O)OOC1=N)(O[C@@H]3OO)C1=CC(=NNF)C(=O)[C@@]3(CCOO[C@@]3(PO)O2)O1,4edf
 4edf_decoy_9,O=C1CO[C@]2(C[C@@H](COCCOO)N(C(=O)OC[C@H]3OCCOCO3)[C@@H]3C(=O)N(C(=O)NOOO)C(=O)[C@H]32)O1,4edf
 4ef6_decoy_1,C=C1C=C(CCC(=O)OCC)C(=O)O1,4ef6
@@ -29956,7 +29891,6 @@ Ligand,SMILE,PDBCode
 4f3c_decoy_4,Nc1cc(-c2cc(CN[C@@H]3CCC[C@@H](CCl)C3)[nH]n2)cc[nH+]1,4f3c
 4f3c_decoy_5,CC1=CCc2c(nc(Nc3cc(Cl)ncc3Cl)nc2[C@H](C)[NH3+])C1,4f3c
 4f3c_decoy_6,NC1=C2CCCC(Cl)(Cl)C2=NC1=Cc1cccc(NCC[NH3+])n1,4f3c
-4f3c_decoy_7,CC1=C2N=CC=C(CNC3CCCC3)C=C2BrO1,4f3c
 4f3c_decoy_8,C[C@@H]1C[C@@H](NC(=O)NC2=C(Br)C=C2)CC(C)(C)C1,4f3c
 4f3c_decoy_9,O=C1CNCNC2=C1[C@H]1CCCC1=C(Br)CCC2,4f3c
 4f3k_decoy_1,CC(C)c1ccc2cc(C[NH3+])cc(Cl)c2c1,4f3k
@@ -30076,7 +30010,6 @@ Ligand,SMILE,PDBCode
 4ffs_decoy_4,Nc1cc(-c2cc(CN[C@@H]3CCC[C@@H](CCl)C3)[nH]n2)cc[nH+]1,4ffs
 4ffs_decoy_5,CC1=CCc2c(nc(Nc3cc(Cl)ncc3Cl)nc2[C@H](C)[NH3+])C1,4ffs
 4ffs_decoy_6,NC1=C2CCCC(Cl)(Cl)C2=NC1=Cc1cccc(NCC[NH3+])n1,4ffs
-4ffs_decoy_7,CC1=C2N=CC=C(CNC3CCCC3)C=C2BrO1,4ffs
 4ffs_decoy_8,C[C@@H]1C[C@@H](NC(=O)NC2=C(Br)C=C2)CC(C)(C)C1,4ffs
 4ffs_decoy_9,O=C1CNCNC2=C1[C@H]1CCCC1=C(Br)CCC2,4ffs
 4fht_decoy_1,OCCOCc1cocc1O,4fht
@@ -30447,7 +30380,6 @@ Ligand,SMILE,PDBCode
 4gid_decoy_5,CC(=CC=C(O)C(=O)[C@@H]1CC(=O)N(CCCNc2ccccc2)C1)c1nc2cc(-c3ccccc3Cl)c(Cl)cc2o1,4gid
 4gid_decoy_6,C=C1NCC(C)=C(Nc2ccc3c(c2)C(=O)N([C@@H](C)COc2cc(OC)c(Cl)cc2Cl)CC3=Cc2ccco2)C1=C,4gid
 4gid_decoy_7,Cc1nc(N(CCc2cc3ccccc3o2)[C@@H](C)Cc2ccc(O)cc2Cl)nc(C)c1C(=O)c1ccc(Cl)c(O)c1,4gid
-4gid_decoy_8,CC1=CC=C2C(=CC=C1)ClO=C2NC[C@H]1CN(CCOc2ccc3ccncc3c2Oc2ccccc2Cl)CCO1,4gid
 4gid_decoy_9,CCC[C@H](OC(=O)c1ccc(Cl)cc1)C(=O)NCC(=O)Nc1nc2cc(Cl)ccc2c2c3c(c(CC)cc12)CCC3,4gid
 4gih_decoy_1,Nc1ccnc(Nc2cccc3ccncc23)c1,4gih
 4gih_decoy_10,CN(C(=S)C(N)=NC(N)=CC(=O)C1CC1)C1CC1,4gih
@@ -30567,7 +30499,6 @@ Ligand,SMILE,PDBCode
 4gqr_decoy_5,NC(=O)N=C(Nc1ccccc1Cl)C(=Cc1cccs1)C[N+](=O)[O-],4gqr
 4gqr_decoy_6,Nc1nnc(CC(=O)Nc2ccc(Oc3cccc(Cl)c3)c(O)c2)s1,4gqr
 4gqr_decoy_7,Nc1ccc(NC(=O)c2ccc(-c3cncs3)c(Cl)c2)c([N+](=O)[O-])c1,4gqr
-4gqr_decoy_8,O=C(Nc1cc(O)c2c(c1)Cl[SH]=[N+]2[O-])Nc1ccc2cccnc2c1,4gqr
 4gqr_decoy_9,Nc1cc(Cl)c(NC(=O)NCc2ccc([N+](=O)[O-])cc2)c2cscc12,4gqr
 4gr8_decoy_1,O=C1CO[C@H](COC(=O)COOOO)C(=O)O[C@@H]2CCCOC(=O)COC(=O)N(C[C@@H](O)CN1)C(=O)NC2=O,4gr8
 4gr8_decoy_10,CCOP(OCC)c1ccc(C(=O)N2CCOC=CC2=CC=C2[C@H](CON)C[C@]3(CO)CCC[C@@]2(O)C3)cc1,4gr8
@@ -30753,7 +30684,6 @@ Ligand,SMILE,PDBCode
 4hbm_decoy_10,CC=C1C(Br)=CCCC=C1C(=O)N1CCN(C(=O)N[C@@](C)(C(=O)OC)C2CC2)CC1,4hbm
 4hbm_decoy_2,NC(=O)CNC(=O)C(=O)NNC(=O)N[NH2+]C[C@H]1CC[C@@H](C(=O)N2CSC[C@H]2CCO)O1,4hbm
 4hbm_decoy_3,NC(=O)C[C@]1(CSC2=CC3=CNC(=O)CN3C=C2C(=O)NNC(=O)O)NC(=O)NC1=O,4hbm
-4hbm_decoy_4,CC1=C2NC=CC=C2C(N(CC(=O)N2CCC[C@H](C)C2)C(=O)C2=CCOC=C2)=OBr1,4hbm
 4hbm_decoy_5,CCC(=O)C=C1CC[C@H](CNC(=O)C2=C(C(=O)N3CCN(C)CC3)CCC(Br)=C2)O1,4hbm
 4hbm_decoy_6,C=C1NC(=O)[C@@H](CC(=O)N2CCC[C@@H](OC3CCCCC3)C2)N(C(=C)C=CBr)C1=O,4hbm
 4hbm_decoy_7,CC=CC=CC1=CC(Br)=C(C(=O)N(C)Cc2cc3c([nH]c2=O)[C@H](C#N)OCC3)CO1,4hbm
@@ -31881,7 +31811,6 @@ Ligand,SMILE,PDBCode
 4jyc_decoy_9,CC1=CP(O)O[C@H]2OC(N)=C[C@@]12N,4jyc
 4jym_decoy_1,C=C1OOC(=C)C2=C1CCO2,4jym
 4jym_decoy_10,OC[C@H]1O[C@@H]([C@@H](O)CO)[C@H](O)O1,4jym
-4jym_decoy_2,CC(=O)C1=CC2=C3O4C5=C1O2354,4jym
 4jym_decoy_3,CC1=C2COCC=C2C(=O)O1,4jym
 4jym_decoy_4,O=C1CC[C@]2(CCOCO2)C1,4jym
 4jym_decoy_5,O=C1CC2=C(C=COC2)CO1,4jym
@@ -32022,7 +31951,6 @@ Ligand,SMILE,PDBCode
 4k55_decoy_1,CN(OC=O)[C@@]1(OCl)N[C@@](O)(F)P[C@@](NO)(C(=O)O)C1=O,4k55
 4k55_decoy_10,CP(OOC=O)N(CF)[C@@H]1CO[S@](=O)ON1C1=C=NOO1,4k55
 4k55_decoy_2,C=C1ON2N(O[C@](O)(F)O[C@]2(CSOO)N[C@H](C)O)P1O,4k55
-4k55_decoy_3,OC1=C2(OP3NOCOO3)C3=N245O3C(=C=CF)O4[C@]15O,4k55
 4k55_decoy_4,COCN(C)C(=O)O[C@@]1(C[C@@](N)(O)F)O[S@H]2NOP1OO2,4k55
 4k55_decoy_5,NC(=O)[C@@](F)(O[C@H](C=O)[C@@H]1CN(O)OP1O)[C@@H]1OC1=O,4k55
 4k55_decoy_6,COOO[C@]1(C(=O)F)C(=NC[C@@H](N)CC=O)OOP1O,4k55
@@ -32235,7 +32163,6 @@ Ligand,SMILE,PDBCode
 4kmz_decoy_3,COC(=O)c1ccc2c([nH]c(=O)c(=O)n2CCN2CCN(Cc3cc(Cl)c(S)s3)CC2)c1C,4kmz
 4kmz_decoy_4,Cc1sc(Cl)cc1CNC(=O)c1ncnc2sc(C(=O)O[C@H]3CCCN(C4CC4)C3=O)cc12,4kmz
 4kmz_decoy_5,Cc1cc2[nH]c(=NC(=O)C[C@H]3CCC(=O)N(CC=O)C3=O)sc2c(SC2CCCCC2)n1,4kmz
-4kmz_decoy_6,O=C(C1=C(Sc2nc(=O)c3c(n2)=OClC=3C2=CNCC2)c2ccncc2OC1)c1ccsc1,4kmz
 4kmz_decoy_7,COc1cc2c(cc1OCC(F)(F)F)N(CCO)CCNCCC(CF)=C(C=C(F)F)CN2,4kmz
 4kmz_decoy_8,CC[C@@H](C)Nc1ccc(NC(=O)[C@@]2(O)CCCN(CC(=CC(F)(F)F)C(F)(F)F)C2=O)cc1,4kmz
 4kmz_decoy_9,CC=C(Nc1ccc(O)c(C(=O)NC[C@]2(C)CCOCCN2CCC(F)(F)F)c1)C(F)(F)F,4kmz
@@ -32611,7 +32538,6 @@ Ligand,SMILE,PDBCode
 4lar_decoy_9,NC(=O)C(=O)NCc1noc(C[N+]([O-])=S)n1,4lar
 4lbu_decoy_1,C[C@H]1C[C@H](CC(=O)Nc2cc(Cl)ccc2Oc2ccc(Cl)cc2)C[C@H](CCO)O1,4lbu
 4lbu_decoy_10,C[C@@H](O)c1ccc(C(=O)NNC(=O)N2CC(=O)NC2=N[C@H]2[NH2+]C[C@H](OCO)NC2=O)s1,4lbu
-4lbu_decoy_2,CCCC[C@@H]1CC[C@H](C(=O)OCC2=C3C(C)=OClc4cc(Cl)c(C)c(c43)CO2)CN1,4lbu
 4lbu_decoy_3,C=CCC=CC1=CC=C(Cl)C(=CC[C@@H](O)CO[C@H]2CCC[C@@](CO)(NCCCl)C2)O1,4lbu
 4lbu_decoy_4,C[C@H](O)[C@@]1(C)[NH+]=C(CNC(=O)NC[C@H](O)C(=O)NC(=O)NC2=N[C@H](C)CS2)NC(=O)O1,4lbu
 4lbu_decoy_5,C[C@H](NC(=O)NNC(=O)[C@@]1(C)NC(=O)N(NC(=O)C[C@H]2CC=CC(=O)O2)C1=O)[C@@H]([NH3+])S,4lbu
@@ -32987,7 +32913,6 @@ Ligand,SMILE,PDBCode
 4lyw_decoy_5,C[C@H]1CCC[C@H]([C@H]2CC[C@H](Cl)c3c(C=C(C(N)=O)C(=O)CCCO)cc(Cl)cc32)O1,4lyw
 4lyw_decoy_6,CC=C1C(Cl)=CCCC[C@H]2O[C@H](C)CN(C[C@@H](O)COc3ccc(CO)cc3Cl)[C@@H]12,4lyw
 4lyw_decoy_7,CC(Cl)=CC=C(C(=O)N[C@@H]1CC[C@H](Cl)C1)C(=O)O[C@H](c1ccco1)C1(C)CCCC1,4lyw
-4lyw_decoy_8,Cc1cc(Cl)c2c(c1[C@@H](C)OC(=O)CC(C)C)[C@H]([C@]1(c3cccnc3)C[C@@H]1O)OCl2,4lyw
 4lyw_decoy_9,COC[C@@H]1CN(C[C@@H](O)c2cc(Cl)cc(-c3ccccc3Cl)c2)C[C@@H](C(C)(C)O)O1,4lyw
 4lzr_decoy_1,CC1(C)CC[C@](O)([C@@H](O)[C@@H](NCCCOCCO)c2ccc(Cl)cc2Cl)C(=O)O1,4lzr
 4lzr_decoy_10,Cc1cc(N(C)C(=O)c2c(C)oc(=O)c(NC(=O)c3scc(C)c3C)c2C)c(C)o1,4lzr
@@ -33478,7 +33403,6 @@ Ligand,SMILE,PDBCode
 4myd_decoy_6,CSc1c(Cl)ccc2ccc(NC(=O)C(=O)NCC(N)=O)cc12,4myd
 4myd_decoy_7,O=C(CNC(=O)NCCO)Nc1cccc(-c2ccc(Cl)s2)c1,4myd
 4myd_decoy_8,COc1cc(OC)cc(Sc2cc(NC(=O)NN)ccc2Cl)c1,4myd
-4myd_decoy_9,CC(C)(O)CNC(=O)Nc1nc(-c2cccc3c2COCl3)cs1,4myd
 4n07_decoy_1,CCN(C(=O)Cc1ccc(-c2ccc3c(c2)CC(=O)N3)s1)[C@H](C)C(N)=O,4n07
 4n07_decoy_10,COc1cccc(-c2csc(CCNc3cccc(CO)n3)n2)c1O,4n07
 4n07_decoy_2,C=Cc1c(C)cc(CS(=O)(=O)N2CCC[C@H](C(N)=O)C2)c2[nH]c(C)cc12,4n07
@@ -34211,7 +34135,6 @@ Ligand,SMILE,PDBCode
 4oiv_decoy_9,CNC(=O)c1sc(C(=O)Nc2ccc(OCCN(C[C@H]3CCCO3)C(=O)CCC(=O)OC)cc2C=O)cc1[C@@H]1CCC[C@H](C)C1,4oiv
 4ojz_decoy_1,C=C1C(=CC=C(SCc2noc(COC)n2)SC(C)(C)C(C)=O)[C@@H]2CC[C@@H](C2)C1=C1OC(=O)NC1=O,4ojz
 4ojz_decoy_10,Cc1nc2[nH]c([C@@H]3CCCCN3C(=O)CCCN3CCn4c(nc5ccccc54)C3)nc2cc1C(C)C,4ojz
-4ojz_decoy_2,COc1ccc(OC)c(ONC(=O)N2CC[C@@H](NCCCN3C4=C[C@@]56=C[SH]457[C@@H]6C37=O)C3(C2)OCCO3)c1,4ojz
 4ojz_decoy_3,CCNc1cc2c(c(C)n1)CCCN(C(=O)c1n[nH]c3c1CCC3)[C@@H]2c1ccc(CC)c2cn(C)nc12,4ojz
 4ojz_decoy_4,CCC[C@H]1CCCCc2nc(=NC(=O)c3cccc(Nc4nc5cc6c(nc5cc4C)=CCC=6)c3)[nH]n21,4ojz
 4ojz_decoy_5,Cc1ccc(NC[C@@H]2CCCN(c3nc4ncc5c(c4[nH]3)CC(C)(C)OC5)C2)c(Cn2ccc(C)n2)c1,4ojz
@@ -35014,7 +34937,6 @@ Ligand,SMILE,PDBCode
 4q9n_decoy_2,C[C@@H](O)CN(CCO)C1=NC2=NN=C(NCCOO)C(=CC(=O)O)N[C@H](CCCOC1=O)C(=O)OC[C@@H]1OC(=O)N2C1=O,4q9n
 4q9n_decoy_3,CON=C1C2=C(C(=CC=CN)OCCOO)OCC(=O)Nc3nnc(o3)[C@H]3CC(=O)N1C(=N2)[C@H]3OC(=O)OCCC(=O)O,4q9n
 4q9n_decoy_4,CNNC(=O)NC(=O)[C@]12COC(=O)N3C(C(=O)COC(=O)COOO)=NN=CC=CC=C(C(=CO)OC)C(=O)N1CC[C@@H]32,4q9n
-4q9n_decoy_5,NC(=O)CN123C(=O)[C@@H]4OCOCCNC5=[N@]16C21=[C@]63C(=CC=COC(=O)OCCN(CC(C(N)=O)=C4C(=O)O)C(=O)OO1)N5,4q9n
 4q9n_decoy_6,CC1=NC=CO[C@](C)(COC=O)C(=O)N2C=NC(O)=CC=C(C(=CO)OO)C(=O)NC(=O)N[C@]3(COOC(=N1)NC3=O)C2,4q9n
 4q9n_decoy_7,NC(=O)C(CC(=O)N1C[C@H]2CC(=O)CN(C(=O)NC(=O)O)CCOC(=O)C(=CO)c3nc(no3)[C@](C(=O)O)(C2)C1)C(N)=O,4q9n
 4q9n_decoy_8,O=C(O)Nc1nc(O)oc1C1=NC2=NC(=CC(=CO)[C@H](O)OCC(=O)NCCN3C(=O)O[C@H](CCN2CCO)C3=O)C1=O,4q9n
@@ -35279,7 +35201,6 @@ Ligand,SMILE,PDBCode
 4qnb_decoy_7,CCCC[C@@](C)(CNC(=O)CCC(=O)Nc1ccc(C)c(N[C@@H](C[NH3+])CC[NH3+])c1)C(=O)NC,4qnb
 4qnb_decoy_8,C=C(C=N)C[C@](C)(CO)c1cc(NC(=O)CCCCCNC(N)=O)ccc1N[C@H](CC)C[NH3+],4qnb
 4qnb_decoy_9,CC=C1CC(N)=C(C)C(NC(=O)NCC[C@H](CO)[NH2+][C@H](CCC)CNC(=O)NCCC)=C1C,4qnb
-4qp2_decoy_1,SCCCSc1nc2c3c4c(nc5scc1c53)CCOC4=OCl2,4qp2
 4qp2_decoy_10,COc1cccc2c1oc1c(Cl)c(Sc3nnc(S)s3)ccc12,4qp2
 4qp2_decoy_2,CC(C)Sc1c(Cl)ccc2c1ncc1c3c(sc12)S(=O)(=O)CN3,4qp2
 4qp2_decoy_3,Cc1cc(-c2ncc(Sc3ccc(Cl)s3)c(=O)[nH]c2=O)c(C)s1,4qp2
@@ -35631,7 +35552,6 @@ Ligand,SMILE,PDBCode
 4rfc_decoy_9,CCc1cc(NC(=O)C2=CCN=C2)c(C)cc1O,4rfc
 4rfd_decoy_1,C=CC(COC(=O)CSC(=O)Nc1ccc(-c2ccco2)c(O)c1)=C(C)Br,4rfd
 4rfd_decoy_10,C[C@@H]1SOSC[C@H]1[NH2+]C[C@@H]1CSCCO1,4rfd
-4rfd_decoy_2,COc1cc(C)c(Oc2cc(OC)c(N)c(C3=CSBrC3=O)c2)cc1OC,4rfd
 4rfd_decoy_3,CCS(=O)(=O)c1cc(C(=O)NCCC2=CCC=C2O)c(O)cc1C=C(C)Br,4rfd
 4rfd_decoy_4,CSC[C@H](OCC(N)=O)Oc1cc2cc(Br)c3c(c2cc1O)C(=O)CCC3,4rfd
 4rfd_decoy_5,CCOC(=O)CCC(=O)c1c(C)[nH]c(C(=O)c2cc(O)cc(Br)c2S)c1C,4rfd
@@ -37323,11 +37243,9 @@ Ligand,SMILE,PDBCode
 4xt2_decoy_10,CCC(F)=C1C(C)=CC2=C(C(=O)NCCCO)CC[C@@H]2n2ccnc21,4xt2
 4xt2_decoy_2,CC1=C[C@@H](Br)C(C2=NC[C@H]3CCCN23)=NN1c1ccc(Br)cn1,4xt2
 4xt2_decoy_3,CCNC1=N[C@@H]2CC(Br)=CC2=C1c1cnc2ccc(Br)nc2n1,4xt2
-4xt2_decoy_4,CCC[C@@H]1C=CNc2nc(-c3cccc4c3=C(Br)Br[N+]=4C)nn21,4xt2
 4xt2_decoy_5,Brc1ccc(N2CCC[C@@H](c3nc4ccc(Br)nc4[nH]3)C2)nc1,4xt2
 4xt2_decoy_6,Brc1cc([C@@H](Br)c2cnccn2)[nH]c2nc3cnccc3c1-2,4xt2
 4xt2_decoy_7,CN=CN[C@@H]1C(c2nncn2C)=CC(Br)=C(Br)C12CCCCC2,4xt2
-4xt2_decoy_8,CCC=CC1=C2Nn3c(nnc3C(C)C)C3=C2C(=CCN3)BrBr1,4xt2
 4xt2_decoy_9,C=C(Br)C(CN1CCC[C@@H](c2c3cn[nH]c3nn2C)C1)=C(C)Br,4xt2
 4xtv_decoy_1,Cc1cccc(C=Cc2c(COC(=O)C=CC3=CCC=C3)ccc3oc(CNC4=CCC=N4)cc23)c1,4xtv
 4xtv_decoy_10,CCCc1c(C)[nH]c(-c2ccc(Oc3ccccc3-c3cc(C4CCOCC4)no3)c(CC)c2)c1C,4xtv
@@ -37439,7 +37357,6 @@ Ligand,SMILE,PDBCode
 4xuc_decoy_7,Cc1cc(C=C2CC2)c(C)n1C[C@H](C)C(=O)n1c(=O)[nH]c2ccccc21,4xuc
 4xuc_decoy_8,C=CC=C1C=C2NCC(=NN=Cc3ccc(OC)c(OC)c3)C=C2CC1,4xuc
 4xuc_decoy_9,C[C@@H]1CCC=C(CCCOc2cccc(-c3cc4nccnc4[nH]3)c2)O1,4xuc
-4xv1_decoy_1,C=C1ClClC2=C1[C@H](N1CC[NH+](Cc3cc(C)n(Cc4ccc(C(=O)NCC(C)=O)o4)n3)CC1)CCC2,4xv1
 4xv1_decoy_10,C=C(C)C1=CC=CC=CN=C2NC(=O)[C@@H](c3cc(N(C)C)ccc32)n2c(=O)[nH]c(=O)n2CCC(=O)N1,4xv1
 4xv1_decoy_2,CC(C)(CNC(=O)NCc1nc(C(Cl)=CC(=O)Oc2ccccc2Cl)cc[nH+]1)C[N@H+]1CC[C@H](C)CC1,4xv1
 4xv1_decoy_3,C[C@H](OC(=O)Cc1cccc(N2CCCN(C(=O)NCC3=CC(Cl)=C=[NH+]3)CC2)[nH+]1)c1ccc(Cl)cc1,4xv1
@@ -38238,7 +38155,6 @@ Ligand,SMILE,PDBCode
 4zwx_decoy_6,COc1cc([C@@H](C)NC(=O)Nc2csc3c2=CCOC=3)ccc1OCCCc1ccc2c(c1)CCN2,4zwx
 4zwx_decoy_7,CNc1sc2c(c1[C@H](C1=C(COC)OC(=CNC(=O)NC3CCCC3)C1=O)c1ccccc1)CCC2,4zwx
 4zwx_decoy_8,Cc1ccc(CNC2=C(CSCc3ccc4c(c3)OCCCO4)C(=C3COC=CC3=O)NC=N2)cc1,4zwx
-4zwx_decoy_9,CC(=O)c1ccc(C(=O)Nc2ccc(CNC34=CC5=C6[S@@H]7C3=C5674)cc2)c(NC(=O)c2ccc(C)o2)c1,4zwx
 4zwz_decoy_1,O=C(NC[C@@H](O)CSC1=C(O)COC(=O)[C@H]1O)NC(=O)OCC(=O)O[SH](=O)=O,4zwz
 4zwz_decoy_10,CC1=CC(=O)C2=C(CO)C(C(=O)OC[C@@H](O)[C@]3(C)CCCC[C@@H]3O)=C(C)[C@@H]12,4zwz
 4zwz_decoy_2,NO[C@H](CS[C@H]1SC(=O)N[C@]12OO[C@H]([C@H](O)C(=O)OCCO)O2)OCCO,4zwz
@@ -42804,7 +42720,6 @@ Ligand,SMILE,PDBCode
 5k0m_decoy_2,C=CC=C1C[C@@H](O)[C@@H]([C@@](O)(C2CCCC2)C2(C(=O)OC[C@@H]3CC(=C)[C@H](Cl)[C@@H](CCl)O3)CC2)CCO1,5k0m
 5k0m_decoy_3,COC(=O)COc1ccc(OC[C@@H]2C[C@H]([C@@]3(O)[C@@H]4CC[C@H](C)[C@@]3(Cl)CC[C@H]4O)CC[C@H]2Cl)cc1C,5k0m
 5k0m_decoy_4,C[C@H]1C[C@H](C(=O)O[C@@H]2[C@@H](O)CCC[C@H]2C(=O)c2ccc3c(c2Cl)[C@](C)(O)[C@@H](CCl)CC3)C[C@@H](C)O1,5k0m
-5k0m_decoy_5,CC(C)(C)C(=O)[C@@H]1COC[C@@H]([C@@]2(C(Cl)Cl)C[C@H](C=CC3=CC(=CCCO)[C@@H]4[C@H]5O6C3=C456)CCO2)O1,5k0m
 5k0m_decoy_6,C=CC1=CN(Cc2nc(C3CC3)nc(NCC[NH+](C)C)c2-c2cocn2)[C@H](c2cc(Cl)cs2)C1,5k0m
 5k0m_decoy_7,Cn1nc2c(c1Cl)N=C(C[N@H+](CCOc1ccccc1)Cc1sccc1-c1ccncc1)NC2,5k0m
 5k0m_decoy_8,C[C@H](SCc1cccc(C[NH2+]Cc2ccc3c(c2)CCO3)n1)C1=C(Cl)N=C2C=NC=CN2C=N1,5k0m
@@ -44477,7 +44392,6 @@ Ligand,SMILE,PDBCode
 5n84_decoy_5,CC1=C[C@@H](O)[C@@]2(C=C1[C@@H]1CCOC(C)(C)C1)CC=CCC2,5n84
 5n84_decoy_6,C[C@@H]1C=C2CCC[C@@H](CC3(O)CCC(C)(CC1)CC3)C2=O,5n84
 5n84_decoy_7,CC=C1C[C@@H]2OCC[C@@H]2[C@@H]2CC(C)(C)[C@@H](CO)C[C@@]2(C)C1,5n84
-5n84_decoy_8,C[C@@H]1CCC[C@]12CC[C@@](C)([C@@H](O)C1=C[C@H]3C4=[C@@]15[C@@H]3O45)CC2,5n84
 5n84_decoy_9,CCCC=C1CO[C@]2(C1)C[C@H](C)[C@@]1(CO)CC=CC[C@H]1C2,5n84
 5n8v_decoy_1,C=CC(=C)c1ccc(CNC(=O)NCC(C=CC2=CC(O[C@H](C)C3=C(CO)C=N[C@H]3NC)=CCO2)=CC)cc1,5n8v
 5n8v_decoy_10,C=CC(=CC)NC(=O)[C@@H]1Cc2c(C)cc(C)cc2CN1C(=O)c1ccc(C(=O)N[C@H](COCCC)C(C)C)[nH]1,5n8v
@@ -45950,7 +45864,6 @@ Ligand,SMILE,PDBCode
 5tya_decoy_8,C[C@H]1Cc2cc(OCC(=O)NC3=CC(O)=COC3=CO)c(O)cc2CO1,5tya
 5tya_decoy_9,CC[C@@H](O)c1ccc(C(OC)=C2OC(C(N)=O)=C(c3ccco3)C2=O)o1,5tya
 5tz1_decoy_1,CCNC(=O)c1cc(O[C@H](CCCO)C(=O)OCC(=O)NCc2cc(C)c(C)o2)c(C(=O)OC)cc1O,5tz1
-5tz1_decoy_10,CSSSS[S@H]1S23(F)(=S145(SF)[C@H](S)CS[S@@]24[S@H]5SF)S[S@H]3C=S,5tz1
 5tz1_decoy_2,CCCCOc1c(C=CC(=O)O)cc(OC)c(OCC(N)=O)c1NC(=O)C1(CC(=O)OC)CCOCC1,5tz1
 5tz1_decoy_3,FSC(F)(F)CSSSSSS[C@@](F)(SF)C(F)(F)SF,5tz1
 5tz1_decoy_4,CCSS[C@](C)(SSS)SSSSS1(=S)(SSF)SS1,5tz1
@@ -46087,7 +46000,6 @@ Ligand,SMILE,PDBCode
 5u49_decoy_5,CN=C1C=C(n2nnnc2CNC(C=C(Br)Br)=CCBr)C(Br)=CC1=[NH2+],5u49
 5u49_decoy_6,BrCCNC[C@H](Nc1[nH+]c2ncnn2c(Br)c1Br)c1ccnc(Br)c1,5u49
 5u49_decoy_7,CN(C)Cc1[nH]c2c(cnn2-c2nc(C([NH+]=CBr)=C(Br)Br)c[nH]2)c1Br,5u49
-5u49_decoy_8,Cc1nc(NCc2ncc[nH+]2)nc2c1cnn2C1=C(Br)BrBrC1=CBr,5u49
 5u49_decoy_9,Cc1nnc2[nH]c([C@H](CC[NH2+]C(Br)Br)n3c(Br)cnc3Br)nc(C)c1-2,5u49
 5u4b_decoy_1,NC(=S)NNc1ncccc1NCc1cc2c[nH]c3scc([nH]1)c23,5u4b
 5u4b_decoy_10,C=C1C=C(N)C=C(C)N1,5u4b
@@ -46818,7 +46730,6 @@ Ligand,SMILE,PDBCode
 5vsj_decoy_6,CN=C(C=O)C1=NC(=C(C)C(C)(C)C)C(F)=C1OCN=C(O)P1OCOCO1,5vsj
 5vsj_decoy_7,C=C(OC1=C(F)OC(OCN)=CN2C[C@H]2N=CC(=O)CO[C@]1(C)OC)P(C)C,5vsj
 5vsj_decoy_8,C=C(O)N1OCN(F)C1=C(O)[C@@]1(C)O[C@@](C)(C(=O)CC)[C@H]1P(N=C(C)C)OC,5vsj
-5vsj_decoy_9,C=NO1OC(=C)C(C2=C3C(=C=C(P(O)N(C)C)O2)C[C@H](OC)C(=O)N3C)=C1F,5vsj
 5vyy_decoy_1,CC=c1[nH]c(=O)c2cc(OC)nc3c2c1=NCN3,5vyy
 5vyy_decoy_10,Cn1nc2c(c1N)C(=O)N(C1=CCCC=C1)C2=O,5vyy
 5vyy_decoy_2,C=C1CNn2c(nc(=O)c3c2NC(=O)CC3)C1=C,5vyy
@@ -47254,10 +47165,8 @@ Ligand,SMILE,PDBCode
 5y86_decoy_2,CC[C@@]1(C=C(C=[NH2+])CBr)ON=NN2C1=C(F)C=[N+](O)N2Cl,5y86
 5y86_decoy_3,C=N[N@@+]1(N=NOCl)ON=C(F)[C@]1(Br)C1=C([NH+]=C)C=C=CC1,5y86
 5y86_decoy_4,C=C(OON=NN=C(Cl)Br)C1=C(N(C)C)[NH+]=C1C=CSF,5y86
-5y86_decoy_5,C=CN=C(C1=C=NOC2=NClBrN2S1)C(C)(C)[NH+]=C,5y86
 5y86_decoy_6,C=N[C@@]1(Br)N([N+](F)=C(C)CO)ON(Cl)[N+]1=NC1=C=C1CC,5y86
 5y86_decoy_7,C=C=C(F)N(CC(=O)C(=C)[NH3+])C(Br)=C1ON1N=C(Cl)N=S,5y86
-5y86_decoy_8,CC1=C([C@@]2(Cl)NN=NOS2)C([NH+]=CC=CC=CF)=OBr1,5y86
 5y86_decoy_9,C=C1N(Cl)C(=N[C@@](C)(OC)C(C)=C[NH3+])ON1N(F)CBr,5y86
 5y8y_decoy_1,Cc1scc2oc(C=CBr)c(NC(=O)CN3C(=O)OC(C)(C)C3=O)c12,5y8y
 5y8y_decoy_10,O=C(CSC1=C(Br)COC(O)=C1O)N1CCN(Cc2ccco2)CC1,5y8y
@@ -47424,7 +47333,6 @@ Ligand,SMILE,PDBCode
 5yvt_decoy_2,C[C@@H](O)CN(CCO)C1=NC2=NN=C(NCCOO)C(=CC(=O)O)N[C@H](CCCOC1=O)C(=O)OC[C@@H]1OC(=O)N2C1=O,5yvt
 5yvt_decoy_3,CON=C1C2=C(C(=CC=CN)OCCOO)OCC(=O)Nc3nnc(o3)[C@H]3CC(=O)N1C(=N2)[C@H]3OC(=O)OCCC(=O)O,5yvt
 5yvt_decoy_4,CNNC(=O)NC(=O)[C@]12COC(=O)N3C(C(=O)COC(=O)COOO)=NN=CC=CC=C(C(=CO)OC)C(=O)N1CC[C@@H]32,5yvt
-5yvt_decoy_5,NC(=O)CN123C(=O)[C@@H]4OCOCCNC5=[N@]16C21=[C@]63C(=CC=COC(=O)OCCN(CC(C(N)=O)=C4C(=O)O)C(=O)OO1)N5,5yvt
 5yvt_decoy_6,CC1=NC=CO[C@](C)(COC=O)C(=O)N2C=NC(O)=CC=C(C(=CO)OO)C(=O)NC(=O)N[C@]3(COOC(=N1)NC3=O)C2,5yvt
 5yvt_decoy_7,NC(=O)C(CC(=O)N1C[C@H]2CC(=O)CN(C(=O)NC(=O)O)CCOC(=O)C(=CO)c3nc(no3)[C@](C(=O)O)(C2)C1)C(N)=O,5yvt
 5yvt_decoy_8,O=C(O)Nc1nc(O)oc1C1=NC2=NC(=CC(=CO)[C@H](O)OCC(=O)NCCN3C(=O)O[C@H](CCN2CCO)C3=O)C1=O,5yvt
@@ -47570,7 +47478,6 @@ Ligand,SMILE,PDBCode
 5zaj_decoy_8,C=CCCC[N@H+]1CCc2cccc(OC)c2C[NH2+]CC(C=O)=Cc2ccccc2C1,5zaj
 5zaj_decoy_9,C=C(C=CC=C(CC)C[N@@H+]1CC[NH2+][C@@H](C)CC1)COc1cc2c(cc1OC)CCCC2,5zaj
 5zbz_decoy_1,C[N@H+]1CCc2ccc3c(C(=O)c4ccc5c(c4)OCO5)coc3c2C1,5zbz
-5zbz_decoy_10,CCC1=C2C(=CC=C3C=C(c4nncnc4=O)CCN32)ClCl1,5zbz
 5zbz_decoy_2,c1ccc2c(c1)COCC2=[NH+]C[C@@H]1COc2c1ccc1c2OCCO1,5zbz
 5zbz_decoy_3,O=C(O[C@@H]1C(=O)Oc2ccccc21)[C@H]1Cc2cccc3cc[nH+]c1c23,5zbz
 5zbz_decoy_4,COC(=O)c1ccc([C@@H]2CCCc3cc[nH+]c(C4CCOCC4)c32)o1,5zbz
@@ -47610,7 +47517,6 @@ Ligand,SMILE,PDBCode
 5zfi_decoy_8,NC(=O)C1=CNC2=C(C(=O)CCC2)[C@H]1Nc1c(CNCc2ccc3c(c2)NCC3)cccc1C1CC1,5zfi
 5zfi_decoy_9,C[C@H]([NH2+]Cc1cccc([C@H]2CC(=O)Nc3ccc(CN)cc32)c1)c1ccc(NC(=O)NC2CC2)cc1,5zfi
 5zkc_decoy_1,C[N@@H+]1CC2=COCC=C2[C@@H](CCO)[C@H]1[C@H](O)[C@]1(C)CCCCO1,5zkc
-5zkc_decoy_10,C[C@@H]([NH2+][C@H]1CCO[C@H]1C1=CC23=C45C=C14O25O3)[C@@H](C)OC(C)(C)C,5zkc
 5zkc_decoy_2,COC[C@@]1(C)C[C@@H]([NH2+]C[C@H]2CCCO2)CC2(CCOCC2)O1,5zkc
 5zkc_decoy_3,C[C@H]([NH2+]C1CC2=CCC=C2C1)[C@H](C)OC(=O)[C@]1(C)COCCO1,5zkc
 5zkc_decoy_4,C=CC(=C)[C@H]1CN(C[C@H](O)[C@H]2CCO[C@@]3(CCOC3)C2)CCO1,5zkc
@@ -47786,7 +47692,6 @@ Ligand,SMILE,PDBCode
 6ayr_decoy_4,Nc1cc(-c2cc(CN[C@@H]3CCC[C@@H](CCl)C3)[nH]n2)cc[nH+]1,6ayr
 6ayr_decoy_5,CC1=CCc2c(nc(Nc3cc(Cl)ncc3Cl)nc2[C@H](C)[NH3+])C1,6ayr
 6ayr_decoy_6,NC1=C2CCCC(Cl)(Cl)C2=NC1=Cc1cccc(NCC[NH3+])n1,6ayr
-6ayr_decoy_7,CC1=C2N=CC=C(CNC3CCCC3)C=C2BrO1,6ayr
 6ayr_decoy_8,C[C@@H]1C[C@@H](NC(=O)NC2=C(Br)C=C2)CC(C)(C)C1,6ayr
 6ayr_decoy_9,O=C1CNCNC2=C1[C@H]1CCCC1=C(Br)CCC2,6ayr
 6b1k_decoy_1,C=CC(=C(C)O)[C@H](O)c1c(C(=CC)OC)[nH]c(=O)[nH]c1=O,6b1k
@@ -48624,7 +48529,6 @@ Ligand,SMILE,PDBCode
 6dum_decoy_2,C[C@@H](O)CN(CCO)C1=NC2=NN=C(NCCOO)C(=CC(=O)O)N[C@H](CCCOC1=O)C(=O)OC[C@@H]1OC(=O)N2C1=O,6dum
 6dum_decoy_3,CON=C1C2=C(C(=CC=CN)OCCOO)OCC(=O)Nc3nnc(o3)[C@H]3CC(=O)N1C(=N2)[C@H]3OC(=O)OCCC(=O)O,6dum
 6dum_decoy_4,CNNC(=O)NC(=O)[C@]12COC(=O)N3C(C(=O)COC(=O)COOO)=NN=CC=CC=C(C(=CO)OC)C(=O)N1CC[C@@H]32,6dum
-6dum_decoy_5,NC(=O)CN123C(=O)[C@@H]4OCOCCNC5=[N@]16C21=[C@]63C(=CC=COC(=O)OCCN(CC(C(N)=O)=C4C(=O)O)C(=O)OO1)N5,6dum
 6dum_decoy_6,CC1=NC=CO[C@](C)(COC=O)C(=O)N2C=NC(O)=CC=C(C(=CO)OO)C(=O)NC(=O)N[C@]3(COOC(=N1)NC3=O)C2,6dum
 6dum_decoy_7,NC(=O)C(CC(=O)N1C[C@H]2CC(=O)CN(C(=O)NC(=O)O)CCOC(=O)C(=CO)c3nc(no3)[C@](C(=O)O)(C2)C1)C(N)=O,6dum
 6dum_decoy_8,O=C(O)Nc1nc(O)oc1C1=NC2=NC(=CC(=CO)[C@H](O)OCC(=O)NCCN3C(=O)O[C@H](CCN2CCO)C3=O)C1=O,6dum
@@ -48878,7 +48782,6 @@ Ligand,SMILE,PDBCode
 6elp_decoy_6,CC(=O)N1C[C@H]2CCC1=CC[C@H]1CC[C@@H](CC1)[N@@H+]1CC[C@@H](CC1)[C@@H]2O,6elp
 6elp_decoy_7,C=Cc1c(N)c(Cl)c(Cl)c2c1C(=O)OCO2,6elp
 6elp_decoy_8,COC(=O)c1[nH]c2cc(O)cc(Cl)c2c1Cl,6elp
-6elp_decoy_9,COc1cc2c3c(cc(=O)nc3c1O)ClCl2,6elp
 6en5_decoy_1,CC=c1c(C(=O)Nc2ccccc2[NH2+]Cc2cc(C)c(O)c(C)c2)cccc1=CF,6en5
 6en5_decoy_10,CO[N@+](C)([O-])CC(=O)C=C(NC(=O)C(=O)Nc1ccc2c(c1)C=CC2)C(F)(F)F,6en5
 6en5_decoy_2,C[NH2+]c1cccc(OCC(=O)c2cccc3c4c([nH]c23)CCCCC(C)(C)C4)c1,6en5
@@ -49052,7 +48955,6 @@ Ligand,SMILE,PDBCode
 6ey8_decoy_1,C[C@H]1c2[nH]nnc2-c2c(ncn(C)c2=O)N1C[C@H]1CN([C@@H]2CC[C@@H](C)C2)CCO1,6ey8
 6ey8_decoy_10,CCN[C@@H]1CC[NH2+][C@@H]([C@@H](C)c2ccc(COc3ccc4c(c3)C(=O)C(=O)N4)o2)C1,6ey8
 6ey8_decoy_2,Cc1cc(C)n([C@@H]2CCCN(C(=O)c3c(C)nn4nc(C5CC5)[nH]c(=O)c34)C2)n1,6ey8
-6ey8_decoy_3,O=C(c1cccc(N=C2CCCCN2)n1)N1CC[C@@H](OC2=CC3=N456C(=[N+]24)C5N36)C1,6ey8
 6ey8_decoy_4,COC1CCN(c2cc(-n3cccn3)nc3cc(NC(=O)[C@@H]4C[C@H]4C)nn23)CC1,6ey8
 6ey8_decoy_5,C=CCn1nc(N=C2CCCC2=CN)n(C(=O)N[C@H]2C[C@@H]3CCCCN3C2)c1=O,6ey8
 6ey8_decoy_6,O=C(NCc1noc(N2CC[C@@H]3CCC[C@@H]3C2)n1)N1CC[C@H](Cn2cccn2)C1,6ey8
@@ -50507,7 +50409,6 @@ Ligand,SMILE,PDBCode
 6m88_decoy_5,NC(=O)N=C(Nc1ccccc1Cl)C(=Cc1cccs1)C[N+](=O)[O-],6m88
 6m88_decoy_6,Nc1nnc(CC(=O)Nc2ccc(Oc3cccc(Cl)c3)c(O)c2)s1,6m88
 6m88_decoy_7,Nc1ccc(NC(=O)c2ccc(-c3cncs3)c(Cl)c2)c([N+](=O)[O-])c1,6m88
-6m88_decoy_8,O=C(Nc1cc(O)c2c(c1)Cl[SH]=[N+]2[O-])Nc1ccc2cccnc2c1,6m88
 6m88_decoy_9,Nc1cc(Cl)c(NC(=O)NCc2ccc([N+](=O)[O-])cc2)c2cscc12,6m88
 6ma2_decoy_1,CCC[C@@H]1C[C@@H](NC(=O)c2[nH]c3cc(Oc4ccccc4OCC)ccc3c2C)[C@H]2CCCC[C@H]2O1,6ma2
 6ma2_decoy_10,COc1cc(NC(=O)N[C@]2(C(=O)OCCOCC(=O)O[C@](C)(CO)C(=O)O)CCCCC2(C)C)cc(C(=O)OC(C)C)c1,6ma2
@@ -50941,7 +50842,6 @@ Ligand,SMILE,PDBCode
 6s1z_decoy_9,CCOP(CCCO[C@@H](C)c1cccc2cc(C3=C[C@H](C)[C@@H](N)OC3)oc12)OCC,6s1z
 6std_decoy_1,CC[C@@]1(CCCCl)[C@@H](NCC2=C(Cl)C=CS2(=O)=O)C[C@H]1Br,6std
 6std_decoy_10,C[C@@H](CN)C(=O)NC1=NN=C(N2CCC[C@@H]2CC2=CCC=N2)SC1,6std
-6std_decoy_2,CC1=C(Cl)ClBrC1=C1C(=O)O[C@@H]2N[C@@H](C)[C@@H](C)SC2=C1C,6std
 6std_decoy_3,CC(Br)=C1CC(=O)C([S@@](=O)N[C@H]2CCC(=CCCl)C2)=C1Cl,6std
 6std_decoy_4,O[C@@H]1CC(=NC2=CCSC=C2)COC1=C(Cl)C=C(Cl)CBr,6std
 6std_decoy_5,O=[SH][C@@H]1CCN(C[C@@H]2CC[C@H](CC(=CCCl)[C@@H](Cl)Br)O2)C1,6std
