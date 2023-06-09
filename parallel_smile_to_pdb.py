@@ -40,7 +40,7 @@ def main():
     rdBase.rdkitRandomSeed = 42
 
     # Define the input file paths
-    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Active_Ligand_Smiles.csv"
+    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Active_Ligand_Smiles.csv"
     decoy_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Decoy_Ligand_Smiles.csv"
 
     # Define the output directory paths
