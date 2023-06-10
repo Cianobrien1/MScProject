@@ -15,7 +15,6 @@ def pdb_to_mol(pdb_file_path):
     # else:
     mol_file = os.path.basename(pdb_file_path).rstrip(".pdb")
     Chem.rdmolfiles.MolToMolFile(molecule, f"{output_dir}/{mol_file}.mol")
-
 def main():
     input_dirs = ["/home/s2451611/MScProject/Acitve_Smiles_pdbs", "/home/s2451611/MScProject/Decoy_Smiles_pdbs"]
 
