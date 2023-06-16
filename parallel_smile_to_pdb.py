@@ -4,19 +4,14 @@ from rdkit import Chem, rdBase, RDLogger
 from rdkit.Chem import AllChem
 from joblib import Parallel, delayed
     
-def process_smiles(row, output_dir, is_decoy=False):
+def process_smiles(row, output_dir):
     # Mute warnings
     rdBase.DisableLog('rdApp.*')
     
     # Process the ligands
-    if is_decoy:
-        ligand = row['Ligand']
-        smiles = row['SMILE']
-        filename = 'Broken_Decoy_Smiles.txt'
-    else:
-        ligand = row['PDBCode']
-        smiles = row['RDKitCanonSmile']
-        filename = 'Broken_Active_Smiles.txt'
+    ligand = row['PDBCode']
+    smiles = row['RDKitCanonSmile']
+    filename = 'Broken_Active_Smiles.txt'
 
     mol = Chem.MolFromSmiles(smiles)
 
@@ -40,30 +35,22 @@ def main():
     rdBase.rdkitRandomSeed = 42
 
     # Define the input file paths
-    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Active_Ligand_Smiles.csv"
-    decoy_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Updated_Decoy_Ligand_Smiles.csv"
+    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Active_Ligand_Smiles.csv"
 
     # Define the output directory paths
     active_output_dir = r"/home/s2451611/MScProject/Acitve_Smiles_pdbs"
-    decoy_output_dir = r"/home/s2451611/MScProject/Decoy_Smiles_pdbs"
 
     # Ensure the output directories exist
     os.makedirs(active_output_dir, exist_ok=True)
-    os.makedirs(decoy_output_dir, exist_ok=True)
 
     # Read the CSV files
     active_df = pd.read_csv(active_smiles_path, dtype={'PDBCode': str})
-    decoy_df = pd.read_csv(decoy_smiles_path, dtype={'Ligand': str})
 
     print("Processing Active SMILES, please wait...")
 
     # Process the active ligands
-    Parallel(n_jobs=-1)(delayed(process_smiles)(row, active_output_dir, False) for _, row in active_df.iterrows())
+    Parallel(n_jobs=-1)(delayed(process_smiles)(row, active_output_dir) for _, row in active_df.iterrows())
 
-    print("Processing Decoy SMILES, please wait...")
-
-    # Process the decoy ligands
-    Parallel(n_jobs=-1)(delayed(process_smiles)(row, decoy_output_dir, True) for _, row in decoy_df.iterrows())
 
     print("Processing Completed")
 
