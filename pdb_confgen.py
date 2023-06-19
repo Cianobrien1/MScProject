@@ -3,7 +3,7 @@ import os
 from joblib import Parallel, delayed
 
 output_dir = "/home/s2451611/MScProject/conformer_dir/"
-input_dir = "/home/s2451611/MScProject/pdb_to_mols_dir/"
+input_dir = "/home/s2451611/MScProject/Acitve_Smiles_pdbs"
 
 def confgen(file_arg):
     output_file_name = os.path.basename(file_arg).rstrip(".mol") + ".sdf"
