@@ -2,7 +2,7 @@ import os
 import glob
 
 conformer_dir = "/home/s2451611/MScProject/conformer_dir"
-crystal_dir = "/home/s2451611/MScProject/crystal_pose_ligands_pdb"
+crystal_dir = "/home/s2451611/MScProject/pdb_crystal_pose_ligands"
 
 # Get a list of all SDF files in the conformer_dir
 conformer_files = glob.glob(os.path.join(conformer_dir, "*.sdf"))
