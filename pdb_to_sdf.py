@@ -5,7 +5,7 @@ import glob
 
 def convert_pdb_to_sdf(pdb_file, sdf_dir):
     # Create an RDKit molecule object from the PDB file
-    mol = Chem.rdmolfiles.MolFromPDBFile(pdb_file)
+    mol = Chem.rdmolfiles.MolFromPDBFile(pdb_file, sanitize = False)
     
     # Construct the output file path
     base_name = os.path.basename(pdb_file).replace('.pdb', '.sdf')
@@ -15,10 +15,10 @@ def convert_pdb_to_sdf(pdb_file, sdf_dir):
     Chem.rdmolfiles.MolToMolFile(mol, sdf_file)
 
 # Directory containing the input PDB files
-pdb_dir = "/home/s2451611/MScProject/pdb_crystal_pose_ligands"
+pdb_dir = "/home/s2451611/MScProject/openbabel_pdb_crystal_pose_ligands"
 
 # Directory where the output SDF files will be saved
-sdf_dir = "/home/s2451611/MScProject/sdf_crystal_pose_ligands"
+sdf_dir = "/home/s2451611/MScProject/openbabel_sdf_crystal_pose_ligands"
 
 # Create the output directory if it doesn't exist
 os.makedirs(sdf_dir, exist_ok=True)
