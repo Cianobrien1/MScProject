@@ -1,3 +1,8 @@
+##############################################################################################
+# This script was used to check if each active ligand had at least 10 decoy ligands in order #
+# to ensure the data was balanced - redundant as decoys were removed from workflow           #
+##############################################################################################
+
 import os
 from collections import defaultdict
 

@@ -1,3 +1,8 @@
+#################################################################################################
+# This script uses a custom version of confgen edited to use UFF instead of MMFF for forcefield #
+# generation in order to create up to 20 conformers for every active ligand                     #
+#################################################################################################
+
 from rdkit import Chem
 import pandas as pd
 import os

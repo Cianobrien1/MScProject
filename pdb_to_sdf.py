@@ -1,3 +1,7 @@
+###########################################################
+# This script converts pdb files to sdf files using rdkit #
+###########################################################
+
 from rdkit import Chem
 from joblib import Parallel, delayed
 import os

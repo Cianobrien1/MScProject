@@ -1,3 +1,8 @@
+########################################################################################
+# This script removes extra ligand and receptor pdb files that are not present in the  #
+# active ligand list (the 5102 active ligands contained in "Active_ligand_smiles.csv") #
+########################################################################################
+
 import os
 import glob
 

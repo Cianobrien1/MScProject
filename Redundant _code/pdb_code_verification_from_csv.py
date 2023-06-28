@@ -1,3 +1,9 @@
+############################################################################################
+# This script was used to ensure all pdb codes in the "Active_Ligand_Smiles.csv" file were #
+# valid pdb ids                                                                            #
+############################################################################################
+
+
 import pandas as pd
 
 df = pd.read_csv('Active_Ligand_Smiles.csv', dtype={'PDBCode': str})

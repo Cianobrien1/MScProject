@@ -1,3 +1,8 @@
+#############################################################################
+# This script was used to remove excess crystal ligands pdb files that were #
+# not part of the 5102 active ligand set                                    #
+#############################################################################
+
 import os
 import glob
 

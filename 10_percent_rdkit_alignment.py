@@ -1,3 +1,8 @@
+##################################################################################################
+# This script uses rdkit to align the 10 percent test samples to the 10% crystal ligand samples  #
+# using sdf file inputs for both ligands being aligned                                           #
+##################################################################################################
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 import os

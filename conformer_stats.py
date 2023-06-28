@@ -1,3 +1,8 @@
+##############################################################################################
+# This script counts how many conformers have been created for each ligand and saves it to a #
+# txt file called "conformer_stats.txt"                                                      #
+##############################################################################################
+
 import os
 from collections import defaultdict
 from rdkit import Chem

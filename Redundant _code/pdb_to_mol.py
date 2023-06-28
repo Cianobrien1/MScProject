@@ -1,3 +1,9 @@
+#####################################################################################
+# This script was used to convert all pdb files to mol files to be used as input to #
+# the original confgen, as it originally called for mol file inputs before I custom #
+# edited it to accept SMILES instead                                                #
+#####################################################################################
+
 from rdkit import Chem
 import os
 from joblib import Parallel, delayed

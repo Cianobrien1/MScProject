@@ -1,3 +1,7 @@
+###################################################################
+# This script was used to convert a single pdbqt file to pdb file #                      
+###################################################################
+
 def convert_pdbqt_to_pdb(pdbqt_file, pdb_file):
     with open(pdbqt_file, 'r') as fin, open(pdb_file, 'w') as fout:
         for line in fin:

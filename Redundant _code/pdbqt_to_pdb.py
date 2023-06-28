@@ -1,3 +1,8 @@
+###################################################################################
+# This script was used to convert all pdbqt files to pdb files in a custom manner #
+# it was replaced by using openbabel due to errors in the converion               #
+###################################################################################
+
 from joblib import Parallel, delayed
 import os
 import glob

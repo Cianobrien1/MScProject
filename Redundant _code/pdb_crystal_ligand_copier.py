@@ -1,3 +1,8 @@
+#############################################################################################
+# This script was used to copy all the ligand pdb files from the "pdb_all_receptor_ligands" #
+# directory to thier own directory                                                          #
+#############################################################################################
+
 import os
 import glob
 import shutil

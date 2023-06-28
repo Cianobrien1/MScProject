@@ -1,3 +1,9 @@
+####################################################################################
+# This script was used to generate a SMILE from thr 1yet mol2 file as the original #
+# SMILE provided for this ligand could not be read by RDKit                        #
+####################################################################################
+
+
 from rdkit import Chem
 
 input_file = "/home/s2451611/MScProject/1yet/1yet_ligand.mol2"

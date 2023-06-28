@@ -1,3 +1,9 @@
+#################################################################################
+# This script uses openbabel to convert SMILES to pdb files, it was not used as #
+# use of openbable here would have mandated re-doing all data with openbabel    #
+# instead of rdkit                                                              #
+#################################################################################
+
 from openbabel import pybel
 import os
 from openbabel import openbabel as ob

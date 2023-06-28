@@ -1,3 +1,7 @@
+###################################################################
+# This script is used to count the number of files in a directory # 
+###################################################################
+
 import sys
 import os
 

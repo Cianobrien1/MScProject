@@ -1,3 +1,7 @@
+###########################################################################################
+# This script was used to test conformer generation on what appeared to be a broken smile #
+###########################################################################################
+
 from rdkit import Chem
 import pandas as pd
 import os

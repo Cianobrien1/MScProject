@@ -1,3 +1,8 @@
+#############################################################################################
+# This script copies all crystal ligand pdb files from the "openbabel_all_receptor_ligands" #
+# which is all_receptor_ligands directory converted from pdbqt to pdb with openbabel        #
+#############################################################################################
+
 import os
 import glob
 import shutil

@@ -1,3 +1,7 @@
+###################################################################################
+# This script was used to find what pdb id's had failed to generate any conformer # 
+###################################################################################
+
 import os
 
 # Define the directories

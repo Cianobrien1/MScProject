@@ -1,3 +1,9 @@
+################################################################################################
+# This is a copy of the custom modified "rdk_confgen.py" file that has be edited accept SMILES #
+# as inputs. It was also modified to use UFF instead of MMFF for forcefield generation,        #
+# as MMFF was incompatible with the SMILES being used.                                         #
+#################################################################################################
+
 import click
 from rdkit import Chem
 from rdkit.Chem import rdDistGeom

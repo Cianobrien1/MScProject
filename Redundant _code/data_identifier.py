@@ -1,3 +1,9 @@
+############################################################################################
+# This script was used to clean up the "Summary_by_pdb.csv" file by removing excess rows   #
+# and saving info about the data such as pdb code, the database source, and whether it was #
+# training, validation or test set                                                         #
+############################################################################################
+
 import pandas as pd
 
 def main():

@@ -1,3 +1,8 @@
+##################################################################################################
+# This script uses pymol to align the 10 percent test samples to the 10% crystal ligand samples  #
+# using sdf file inputs for both ligands being aligned                                           #
+##################################################################################################
+
 import os
 import glob
 from pymol import cmd

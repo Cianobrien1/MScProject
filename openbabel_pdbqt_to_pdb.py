@@ -1,3 +1,8 @@
+#####################################################################
+# This scrit converts all pdbqt files in the "all_receptor_ligands" #
+# directory to pdb files using openbabel                            #
+#####################################################################
+
 import glob
 import os
 from openbabel import pybel

@@ -1,3 +1,7 @@
+######################################################################################
+# This script was a non-parallel version of conversion from SMILE to pdb using rdkit #
+######################################################################################
+
 import pandas as pd
 import os
 from rdkit import Chem, rdBase, RDLogger

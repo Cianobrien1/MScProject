@@ -1,3 +1,7 @@
+#######################################################################################
+# This script was used to check RDKit's ability to read SMILES on an individual basis #
+#######################################################################################
+
 from rdkit import Chem, rdBase, RDLogger
 from rdkit.Chem import AllChem
 

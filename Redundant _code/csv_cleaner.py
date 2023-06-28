@@ -1,3 +1,8 @@
+#############################################################################
+# This script was used to "clean" the active and decoy ligand csv files by  #
+# removing broken SMILES and any active with a decoy that had broken SMILES #
+#############################################################################
+
 import pandas as pd
 
 def missing_pdb_cleaner():

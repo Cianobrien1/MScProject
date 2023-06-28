@@ -1,3 +1,8 @@
+#################################################################################
+# This script takes a random 10% sample of ligands from the conformer_dir to    #
+# be used for testing different alignmnet tools to see which performs the best  #
+#################################################################################
+
 import os
 import shutil
 import random

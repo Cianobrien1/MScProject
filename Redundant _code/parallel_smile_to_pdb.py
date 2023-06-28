@@ -1,3 +1,7 @@
+############################################################
+# This script converts all SMILES to pdb files in parallel #
+############################################################
+
 import pandas as pd
 import os
 from rdkit import Chem, rdBase, RDLogger

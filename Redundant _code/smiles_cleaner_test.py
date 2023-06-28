@@ -1,3 +1,8 @@
+##################################################################################
+# This was an experimental way to fix issues with SMILES I was having by using a #
+# SMILE cleaner from vincent's github"                                           #
+##################################################################################
+
 from rdkit import Chem
 import re
 
