@@ -1,13 +1,15 @@
 ##################################################################################################
 # This script uses rdkit to align the 10 percent test samples to the 10% crystal ligand samples  #
 # using pdb file inputs for both ligands being aligned                                           #
+# Hydrogens are added only to the conformer                                                      #
 ##################################################################################################
 
 import os
 import glob
 from rdkit import Chem
-from rdkit.Chem import rdMolAlign
+from rdkit.Chem import rdMolAlign, AllChem
 from collections import defaultdict
+from joblib import Parallel, delayed
 
 # Define the directories
 conformer_dir = "/home/s2451611/MScProject/pdb_10_percent_alignment_test_sample"
@@ -17,13 +19,12 @@ target_dir = "/home/s2451611/MScProject/10_percent_aligned_pdb"
 # Create the target directory if it doesn't exist
 os.makedirs(target_dir, exist_ok=True)
 
-# Initialize a dictionary to store the RMSD values
-rmsd_dict = defaultdict(list)
-
-# Iterate over the conformer PDB files
-for pdb_file in glob.glob(conformer_dir + "/*.pdb"):
+def align_and_save(pdb_file):
     pdb_id = os.path.basename(pdb_file).split('_')[0]
     mol_conformer = Chem.MolFromPDBFile(pdb_file)
+
+    # Add hydrogens to the conformer
+    mol_conformer = Chem.AddHs(mol_conformer)
 
     # Read the crystal pose for the ligand
     crystal_file = os.path.join(crystal_dir, pdb_id + "_ligand.pdb")
@@ -31,18 +32,19 @@ for pdb_file in glob.glob(conformer_dir + "/*.pdb"):
 
     # Align the conformer to the crystal pose and get the RMSD
     rmsd = rdMolAlign.AlignMol(mol_conformer, mol_crystal)
-    rmsd_dict[pdb_id].append((rmsd, pdb_file))
 
-# Write the aligned conformer with the lowest RMSD for each ligand to a new PDB file
-for pdb_id, rmsd_list in rmsd_dict.items():
-    min_rmsd, min_rmsd_file = min(rmsd_list)
-    mol = Chem.MolFromPDBFile(min_rmsd_file)
-    Chem.MolToPDBFile(mol, os.path.join(target_dir, os.path.basename(min_rmsd_file)))
+    # Write the aligned conformer to a new PDB file
+    Chem.MolToPDBFile(mol_conformer, os.path.join(target_dir, os.path.basename(pdb_file)))
+    return rmsd
 
-# Calculate the average RMSD across all conformers for all ligands
-total_rmsd = sum(rmsd for rmsd_list in rmsd_dict.values() for rmsd, _ in rmsd_list)
-total_conformers = sum(len(rmsd_list) for rmsd_list in rmsd_dict.values())
-average_rmsd = total_rmsd / total_conformers
+# List of pdb files
+pdb_files = glob.glob(conformer_dir + "/*.pdb")
+
+# Run the alignment in parallel using joblib
+rmsd_values = Parallel(n_jobs=-1)(delayed(align_and_save)(pdb_file) for pdb_file in pdb_files)
+
+# Calculate the average RMSD across all conformers
+average_rmsd = sum(rmsd_values) / len(rmsd_values)
 
 # Write the average RMSD to a text file
 with open("rdkit_rmsd.txt", "w") as f:
