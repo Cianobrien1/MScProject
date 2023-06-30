@@ -2,7 +2,7 @@
 **.pdbqt
 **.mol
 **.sdf
-/home/s2451611/MScProject/all_receptors_ligands
-MScProject/BindingMOAD_2020
+/home/s2451611/MScProject/all_receptors_ligands/*
 **.bio**
-MScProject/Raw_Data
+**Raw_Data/
+
