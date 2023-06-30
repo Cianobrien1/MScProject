@@ -1,3 +1,9 @@
+##################################################################################
+# This script converts a single sdf file, including all molecules it may contain #
+# # and converts each molecule to a pdb file using rdkit                         #
+###################################################################################
+
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 

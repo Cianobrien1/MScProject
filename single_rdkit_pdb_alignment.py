@@ -1,3 +1,7 @@
+
+########################################################################
+# This script aligns a single pdb file to another pdb file using rkdit #
+########################################################################
 from rdkit import Chem
 from rdkit.Chem import rdMolAlign
 
