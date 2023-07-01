@@ -181,7 +181,13 @@ def isolate_pocket_and_ligand(filename, success_destination_path, problem_destin
         keep_ligand_residues = list()
 
         model = structure[0]
-        chain = model[valid_ligand_chain]
+        try:
+            chain = model[valid_ligand_chain]
+        except KeyError:
+            with open("MOAD_problem_pdb.txt", "a") as f:
+                f.write(f"Problem with pdb file: {filename}\n")
+            print(f"Problem with pdb file: {filename}. The error has been logged in MOAD_problem_pdb.txt")
+            return  # Exit the function here if there's an error
 
         # loop through residues in chosen active ligand chain
         for chain_residue in chain.get_residues():
