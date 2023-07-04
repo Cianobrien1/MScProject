@@ -1,32 +1,32 @@
-###################################################################
-# This script is used to count the number of files in a directory # 
-###################################################################
-
-import sys
 import os
+import sys
 
 """
-This is a simple python3 script to count the files in a given directory
+This is a Python3 script to count the files and subdirectories in a given directory and its subdirectories.
 Use : "python dir_file_counter.py {directory}"
-
 """
 
 def main():
-    def file_counter(directory):
+    def directory_parser(directory):
+        file_count = 0
+        dir_count = 0
+
         # Check if the directory exists
         if not os.path.isdir(directory):
             print(f"{directory} is not a valid directory.")
             return
 
-        # Use a generator to count the files
-        count = sum(1 for entry in os.scandir(directory) if entry.is_file())
+        # Walk through all directories and subdirectories
+        for root, dirs, files in os.walk(directory):
+            file_count += len(files)
+            dir_count += len(dirs)
 
-        print(f"There are {count} files in this directory.")
-        return 
+        print(f"There are {file_count} files in this directory and its subdirectories.")
+        print(f"There are {dir_count} subdirectories in this directory.")
 
     # Check if a directory was provided as a command-line argument
     if len(sys.argv) > 1:
-        file_counter(sys.argv[1])
+        directory_parser(sys.argv[1])
     else:
         print("Please provide a directory as a command-line argument.")
 

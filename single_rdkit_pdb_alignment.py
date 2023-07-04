@@ -22,8 +22,8 @@ def align_pdb_files(ref_pdb_file, fit_pdb_file, output_pdb_file):
     writer.close()
 
 # Specify the reference PDB file, fit PDB file, and output PDB file
-ref_pdb_file = 'reference.pdb'
-fit_pdb_file = 'fit.pdb'
+ref_pdb_file = '/home/s2451611/MScProject/openbabel_pdb_crystal_pose_ligands/5yj0_ligand.pdb'
+fit_pdb_file = '/home/s2451611/MScProject/5yj0/output_5.pdb'
 output_pdb_file = 'aligned.pdb'
 
 align_pdb_files(ref_pdb_file, fit_pdb_file, output_pdb_file)
