@@ -8,7 +8,7 @@ import shutil
 
 # Define paths
 input_filepath = '/home/s2451611/MScProject/Data_info/Data_Source/MOAD.txt'
-data_directory = '/home/s2451611/MScProject/Raw_Data/Binding_MOAD_Successes'
+data_directory = '/home/s2451611/MScProject/Raw_Data/MISSING_Binding_MOAD_Successes'
 output_directory = '/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_pdb_db'
 missing_filepath = '/home/s2451611/MScProject/MOAD_missing_pdb_ids.txt'
 

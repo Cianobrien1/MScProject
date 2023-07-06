@@ -7,12 +7,12 @@ import subprocess
 import os
 
 # The directories where your structure files are located
-structure_dirs = ["/home/s2451611/MScProject/Raw_Data/BindingMOAD_pdbs/"]
+structure_dirs = ["/home/s2451611/MScProject/Raw_Data/MISSING_BindingMOAD_pdbs/"]
 
 
 # The directories where you want to save successful and problematic structures
-success_dir = "/home/s2451611/MScProject/Raw_Data/Binding_MOAD_Successes/"
-problem_dir = "/home/s2451611/MScProject/Raw_Data/Binding_MOAD_Problems/"
+success_dir = "/home/s2451611/MScProject/Raw_Data/MISSING_Binding_MOAD_Successes/"
+problem_dir = "/home/s2451611/MScProject/Raw_Data/MISSING_Binding_MOAD_Problems/"
 
 # The location of your binding data csv
 binding_data = "/home/s2451611/MScProject/Raw_Data/nr_bind.csv"

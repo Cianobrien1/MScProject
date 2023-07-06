@@ -12,9 +12,9 @@ from collections import defaultdict
 from joblib import Parallel, delayed
 
 # Define the directories
-conformer_dir = "/home/s2451611/MScProject/pdb_10_percent_alignment_test_sample"
-crystal_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_pdb"
-target_dir = "/home/s2451611/MScProject/10_percent_aligned_pdb"
+conformer_dir = "/home/s2451611/MScProject/MOAD_missing_conformers_pdb"
+crystal_dir = "/home/s2451611/MScProject/MOAD_missing_pdbs"
+target_dir = "/home/s2451611/MScProject/missing_aligned_pdbs"
 
 # Create the target directory if it doesn't exist
 os.makedirs(target_dir, exist_ok=True)

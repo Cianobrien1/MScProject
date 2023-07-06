@@ -11,8 +11,8 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem.rdchem import KekulizeException
 
-src_dir = "/home/s2451611/MScProject/Raw_Data/PDBBind_ligand_sdf"
-tgt_dir = "/home/s2451611/MScProject/Raw_Data/PDBBind_ligand_pdb"
+src_dir = "/home/s2451611/MScProject/MOAD_missing_conformers"
+tgt_dir = "/home/s2451611/MScProject/MOAD_missing_conformers_pdb"
 
 os.makedirs(tgt_dir, exist_ok=True)
 

@@ -1,3 +1,0 @@
-Problem with pdb file: /home/s2451611/MScProject/Raw_Data/BindingMOAD_pdbs/6m12.pdb
-Problem with pdb file: /home/s2451611/MScProject/Raw_Data/BindingMOAD_pdbs/5yj0.pdb
-Problem with pdb file: /home/s2451611/MScProject/Raw_Data/5yj0/5yj0.pdb
