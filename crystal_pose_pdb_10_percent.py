@@ -1,14 +1,14 @@
-#####################################################################################################
-# This script extracts the relevant crystal pose sdf files for the 10 percent alignment test sample #
-#####################################################################################################
+################################################################################################################################
+# This script extracts the relevant crystal pose pdb files for the 10 percent alignment test sample from database derrived set #
+################################################################################################################################
 
 
 import os
 import shutil
 
 # Define directories
-src_dir = "/home/s2451611/MScProject/openbabel_sdf_crystal_pose_ligands"
-dest_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf"
+src_dir = "/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_pdb_db"
+dest_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_pdb_db"
 test_sample_dir = "/home/s2451611/MScProject/10_percent_alignment_test_sample"
 
 # Create destination directory if it doesn't exist
@@ -22,7 +22,7 @@ test_sample_ids = [file.split('_')[0] for file in test_sample_files if file.ends
 # Iterate over the files in source directory
 for file_name in os.listdir(src_dir):
     # Check if the file ends with .sdf
-    if file_name.endswith('.sdf'):
+    if file_name.endswith('.pdb'):
         # Get the pdb_id from the file_name
         pdb_id = file_name.split('_')[0]
         # If the pdb_id exists in the test_sample_ids, copy the file
