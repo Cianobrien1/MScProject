@@ -25,7 +25,7 @@ def align_and_save(pdb_file):
         return None
 
     # Add hydrogens to the conformer
-    mol_conformer = Chem.AddHs(mol_conformer)
+    #mol_conformer = Chem.AddHs(mol_conformer)
 
     # Read the crystal pose for the ligand
     crystal_file = os.path.join(crystal_dir, pdb_id + "_ligand.pdb")
