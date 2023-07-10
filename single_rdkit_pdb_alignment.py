@@ -22,8 +22,8 @@ def align_pdb_files(ref_pdb_file, fit_pdb_file, output_pdb_file):
     writer.close()
 
 # Specify the reference PDB file, fit PDB file, and output PDB file
-ref_pdb_file = '/home/s2451611/MScProject/10_percent_crystal_ligand_pdb_db/3u10_ligand.pdb'
-fit_pdb_file = '/home/s2451611/MScProject/pdb_10_percent_alignment_test_sample/3u10_SMILE_18.pdb'
+ref_pdb_file = '/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_pdb_db/1yet_ligand.pdb'
+fit_pdb_file = '/home/s2451611/MScProject/1yet/output_12.pdb'
 output_pdb_file = 'aligned.pdb'
 
 align_pdb_files(ref_pdb_file, fit_pdb_file, output_pdb_file)

@@ -19,10 +19,10 @@ def convert_pdb_to_sdf(pdb_file, sdf_dir):
     Chem.rdmolfiles.MolToMolFile(mol, sdf_file)
 
 # Directory containing the input PDB files
-pdb_dir = "/home/s2451611/MScProject/openbabel_pdb_crystal_pose_ligands"
+pdb_dir = "/home/s2451611/MScProject/5yj0_and_4oct"
 
 # Directory where the output SDF files will be saved
-sdf_dir = "/home/s2451611/MScProject/openbabel_sdf_crystal_pose_ligands"
+sdf_dir = "/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_sdf_db"
 
 # Create the output directory if it doesn't exist
 os.makedirs(sdf_dir, exist_ok=True)

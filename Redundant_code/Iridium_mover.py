@@ -9,7 +9,7 @@ import shutil
 # Define paths
 input_filepath = '/home/s2451611/MScProject/Data_info/Data_Source/Iridium.txt'
 data_directory = '/home/s2451611/MScProject/Raw_Data/Iridium_Successes'
-output_directory = '/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_pdb_db'
+output_directory = '/home/s2451611/MScProject/Raw_Data/Iridum_only_ligand_pdbs'
 missing_filepath = '/home/s2451611/MScProject/Iridium_missing_pdb_ids.txt'
 
 # Check and create the output directory if it does not exist

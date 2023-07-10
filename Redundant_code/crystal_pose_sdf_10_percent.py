@@ -7,8 +7,8 @@ import os
 import shutil
 
 # Define directories
-src_dir = "/home/s2451611/MScProject/openbabel_sdf_crystal_pose_ligands"
-dest_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf"
+src_dir = "/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_sdf_db"
+dest_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf_db"
 test_sample_dir = "/home/s2451611/MScProject/10_percent_alignment_test_sample"
 
 # Create destination directory if it doesn't exist
