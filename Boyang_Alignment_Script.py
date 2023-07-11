@@ -3,7 +3,7 @@ from rdkit.Chem import AllChem
 
 # Define the paths to the sdf files
 ref_file_path = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf_db/3u10_ligand.sdf"
-conformers_file_path = "/home/s2451611/MScProject/10_percent_alignment_test_sample/3u10_SMILE.sdf"
+conformers_file_path = "/home/s2451611/MScProject/3u10_conf.sdf"
 
 # Load the reference molecule
 ref_supplier = Chem.SDMolSupplier(ref_file_path)
