@@ -9,7 +9,7 @@ import os
 import subprocess
 from joblib import Parallel, delayed
 
-output_dir = "/home/s2451611/MScProject/conformer_dir/"
+output_dir = "/home/s2451611/MScProject/SANITIZED_conformer_dir/"
 
 def confgen(row):
     # Get SMILES string and PDBCode from the row

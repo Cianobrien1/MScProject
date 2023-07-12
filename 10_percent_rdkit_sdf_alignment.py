@@ -9,10 +9,10 @@ import os
 import numpy as np
 
 # Path to directories
-test_sample_dir = "/home/s2451611/MScProject/10_percent_alignment_test_sample"
-crystal_dir = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf"
-aligned_dir = "/home/s2451611/MScProject/aligned_pdbs"
-rmsd_file_path = "/home/s2451611/MScProject/rdkit_conformer_rmsd.txt"
+test_sample_dir = "/home/s2451611/MScProject/SANITIZED_10_percent_conformer_dir"
+crystal_dir = "//home/s2451611/MScProject/openbabel_10_percent_sdf_crystal_pose"
+aligned_dir = "/home/s2451611/MScProject/openababel_aligned_pdbs"
+rmsd_file_path = "/home/s2451611/MScProject/openbabel_rdkit_conformer_rmsd.txt"
 
 # Create directory for aligned pdbs if it doesn't exist
 os.makedirs(aligned_dir, exist_ok=True)
