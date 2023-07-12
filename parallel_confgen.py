@@ -1,15 +1,11 @@
-#################################################################################################
-# This script uses a custom version of confgen edited to use UFF instead of MMFF for forcefield #
-# generation in order to create up to 20 conformers for every active ligand                     #
-#################################################################################################
-
 from rdkit import Chem
 import pandas as pd
 import os
 import subprocess
 from joblib import Parallel, delayed
+from tqdm import tqdm
 
-output_dir = "/home/s2451611/MScProject/SANITIZED_conformer_dir/"
+output_dir = "/home/s2451611/MScProject/rdkit_2023_UFF_conformer_dir/"
 
 def confgen(row):
     # Get SMILES string and PDBCode from the row
@@ -38,14 +34,14 @@ def confgen(row):
 
 def main():
     # Define the input file paths
-    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/Active_Ligand_Smiles.csv"
+    active_smiles_path = r"/home/s2451611/MScProject/SCORCH_SMILES/RDKIT_2023_Active_SMILES.csv"
 
     # Read the CSV files
     active_df = pd.read_csv(active_smiles_path, dtype={'PDBCode': str})
 
     # Process the active ligands
     os.makedirs(output_dir, exist_ok=True)
-    Parallel(n_jobs=-1)(delayed(confgen)(row) for _, row in active_df.iterrows())
+    Parallel(n_jobs=-1)(delayed(confgen)(row) for _, row in tqdm(active_df.iterrows(), total=active_df.shape[0]))
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,7 @@ from collections import defaultdict
 from rdkit import Chem
 
 # Define the path to your directory
-dir_path = "/home/s2451611/MScProject/conformer_dir"
+dir_path = "/home/s2451611/MScProject/rdkit_2023_UFF_conformer_dir"
 
 # Create a dictionary to store the number of files for each number of conformers
 conformer_dict = defaultdict(int)
@@ -39,7 +39,7 @@ for file_name in os.listdir(dir_path):
         total_conformers += len(mols)
 
 # Write the results to a file
-with open('conformer_stats.txt', 'w') as f:
+with open('2023_UFF_conformer_stats.txt', 'w') as f:
     # Write total number of conformers across all ligands at the top
     f.write(f"Total number of conformers across all ligands: {total_conformers}\n\n")
 
