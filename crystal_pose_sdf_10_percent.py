@@ -7,8 +7,8 @@ import os
 import shutil
 
 # Define directories
-src_dir = "/home/s2451611/MScProject/openbabel_sdf_crystal_pose_ligands"
-dest_dir = "/home/s2451611/MScProject/openbabel_10_percent_sdf_crystal_pose"
+src_dir = "/home/s2451611/MScProject/rdkit_2023_UFF_conformer_dir"
+dest_dir = "/home/s2451611/MScProject/2023_UFF_10_percent_sdf_crystal_pose"
 test_sample_dir = "/home/s2451611/MScProject/10_percent_alignment_test_sample"
 
 # Create destination directory if it doesn't exist
