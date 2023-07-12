@@ -1,3 +1,9 @@
+############################################################################################################
+# This script uses O3A instead of AllChem.MolAlign approach and rdkit to align the 10 percent test samples #
+# to the 10% crystal ligand samples using sdf file inputs for both ligands being aligned                   #
+############################################################################################################
+
+
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import rdMolAlign  # import the rdMolAlign module
