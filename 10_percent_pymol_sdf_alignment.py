@@ -8,15 +8,15 @@ import glob
 from pymol import cmd
 
 # Directories
-input_dir1 = "/home/s2451611/MScProject/10_percent_alignment_test_sample"
-input_dir2 = "/home/s2451611/MScProject/10_percent_crystal_ligand_sdf"
-output_dir = "aligned_pdbs_pymol"
+input_dir1 = "/home/s2451611/MScProject/2023_MMFF_10_percent_sdf"
+input_dir2 = "/home/s2451611/MScProject/openbabel_10_percent_sdf_crystal_pose"
+output_dir = "MMFF_2023_pymol_aligned_pdbs"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
 # Output RMSD file
-rmsd_file = "pymol_avg_rmsd.txt"
+rmsd_file = "MMFF_2023_pymol_avg_rmsd.txt"
 
 def align_and_save():
     all_rmsd_list = []

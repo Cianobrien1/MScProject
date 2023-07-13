@@ -5,8 +5,8 @@
 import os
 
 # Define the directories
-active_smiles_dir = "/home/s2451611/MScProject/Acitve_Smiles_pdbs"
-conformer_dir = "/home/s2451611/MScProject/conformer_dir"
+active_smiles_dir = "/home/s2451611/MScProject/Raw_Data/Active_ligand_crystal_poses_pdb_db"
+conformer_dir = "/home/s2451611/MScProject/rdkit_2023_MMFF_conformer_dir"
 
 # Get the list of files in each directory
 active_smiles_files = os.listdir(active_smiles_dir)

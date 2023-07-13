@@ -1,3 +1,7 @@
+#############################################################################################
+# This script is used to run the "rdk_confgen.py" script in parallel to generate conformers #
+#############################################################################################
+
 from rdkit import Chem
 import pandas as pd
 import os
