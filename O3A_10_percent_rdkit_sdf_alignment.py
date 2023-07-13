@@ -12,10 +12,10 @@ import os
 import numpy as np
 
 # Path to directories
-test_sample_dir = "/home/s2451611/MScProject/2023_MMFF_10_percent_sdf"
-crystal_dir = "/home/s2451611/MScProject/openbabel_10_percent_sdf_crystal_pose"
-aligned_dir = "/home/s2451611/MScProject/MMFF_2023_O3A_aligned_pdbs"
-rmsd_file_path = "/home/s2451611/MScProject/MMFF_2023_O3A_rdkit_conformer_rmsd.txt"
+test_sample_dir = "/home/s2451611/MScProject/10_percent_samples/10_percent_conformers/2023_MMFF_10_percent_sdf"
+crystal_dir = "/home/s2451611/MScProject/10_percent_samples/10_percent_crystal_pose/openbabel_10_percent_sdf_crystal_pose"
+aligned_dir = "/home/s2451611/MScProject/HS_MMFF_2023_O3A_aligned_pdbs"
+rmsd_file_path = "/home/s2451611/MScProject/HS_MMFF_2023_O3A_rdkit_conformer_rmsd.txt"
 
 # Create directory for aligned pdbs if it doesn't exist
 os.makedirs(aligned_dir, exist_ok=True)
@@ -34,6 +34,8 @@ def process_file(filename):
     min_rmsd = None
     min_conf_id = None
     for i, mol in enumerate(molsupplier):
+        mol = Chem.AddHs(mol)  # add explicit hydrogens
+        crystal = Chem.AddHs(crystal)  # add explicit hydrogens
         # Ensure a consistent atom ordering
         mol = Chem.RenumberAtoms(mol, Chem.CanonicalRankAtoms(mol))
         crystal = Chem.RenumberAtoms(crystal, Chem.CanonicalRankAtoms(crystal))
